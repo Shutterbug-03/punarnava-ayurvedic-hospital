@@ -14,7 +14,12 @@
     { "source": "/snehan", "destination": "/snehan.html" },
     { "source": "/swedan", "destination": "/swedan.html" },
     { "source": "/medical-facilities", "destination": "/medical-facilities.html" },
-    { "source": "/ksharsutra-list", "destination": "/ksharsutra-list.html" }
+    { "source": "/ksharsutra-list", "destination": "/ksharsutra-list.html" },
+    { "source": "/robots.txt", "destination": "/robots.txt" },
+    { "source": "/sitemap.xml", "destination": "/sitemap.xml" },
+    { "source": "/llms.txt", "destination": "/llms.txt" },
+    { "source": "/dr-bs-katiyar", "destination": "/dr-bs-katiyar.html" },
+    { "source": "/dr-smita-katiyar", "destination": "/dr-smita-katiyar.html" }
   ],
   "headers": [
     {
@@ -35,6 +40,27 @@
       "source": "/wp-content/(.*)",
       "headers": [
         { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
+      ]
+    },
+    {
+      "source": "/sitemap.xml",
+      "headers": [
+        { "key": "Content-Type", "value": "application/xml" },
+        { "key": "Cache-Control", "value": "public, max-age=86400" }
+      ]
+    },
+    {
+      "source": "/robots.txt",
+      "headers": [
+        { "key": "Content-Type", "value": "text/plain" },
+        { "key": "Cache-Control", "value": "public, max-age=86400" }
+      ]
+    },
+    {
+      "source": "/llms.txt",
+      "headers": [
+        { "key": "Content-Type", "value": "text/plain; charset=utf-8" },
+        { "key": "Cache-Control", "value": "public, max-age=86400" }
       ]
     }
   ]
