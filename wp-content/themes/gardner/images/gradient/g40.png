@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		 <!-- Basic -->
+	    <meta charset="UTF-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+		<!-- Favcon -->
+					<link rel="shortcut icon" type="image/png" href="http://wp1.themexlab.com/m3/gardener/wp-content/themes/gardner/images/favicon.png">
+				<title>Page not found &#8211; Gardener</title>
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<link rel='dns-prefetch' href='//maps.google.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Gardener &raquo; Feed" href="http://wp1.themexlab.com/m3/gardener/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Gardener &raquo; Comments Feed" href="http://wp1.themexlab.com/m3/gardener/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/wp1.themexlab.com\/m3\/gardener\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.6.7"}};
+			!function(a,b,c){function d(a){var c,d,e,f,g,h=b.createElement("canvas"),i=h.getContext&&h.getContext("2d"),j=String.fromCharCode;if(!i||!i.fillText)return!1;switch(i.textBaseline="top",i.font="600 32px Arial",a){case"flag":return i.fillText(j(55356,56806,55356,56826),0,0),!(h.toDataURL().length<3e3)&&(i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,65039,8205,55356,57096),0,0),c=h.toDataURL(),i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,55356,57096),0,0),d=h.toDataURL(),c!==d);case"diversity":return i.fillText(j(55356,57221),0,0),e=i.getImageData(16,16,1,1).data,f=e[0]+","+e[1]+","+e[2]+","+e[3],i.fillText(j(55356,57221,55356,57343),0,0),e=i.getImageData(16,16,1,1).data,g=e[0]+","+e[1]+","+e[2]+","+e[3],f!==g;case"simple":return i.fillText(j(55357,56835),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode8":return i.fillText(j(55356,57135),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode9":return i.fillText(j(55358,56631),0,0),0!==i.getImageData(16,16,1,1).data[0]}return!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i;for(i=Array("simple","flag","unicode8","diversity","unicode9"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='dashicons-css'  href='http://wp1.themexlab.com/m3/gardener/wp-includes/css/dashicons.min.css?ver=4.6.7' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-jquery-ui-dialog-css'  href='http://wp1.themexlab.com/m3/gardener/wp-includes/css/jquery-ui-dialog.min.css?ver=4.6.7' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='http://wp1.themexlab.com/m3/gardener/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=4.6' type='text/css' media='all' />
+<link rel='stylesheet' id='rs-plugin-settings-css'  href='http://wp1.themexlab.com/m3/gardener/wp-content/plugins/revslider/public/assets/css/settings.css?ver=5.1.5' type='text/css' media='all' />
+<style id='rs-plugin-settings-inline-css' type='text/css'>
+#rs-demo-id {}
+</style>
+<link rel='stylesheet' id='bootstrap-css'  href='http://wp1.themexlab.com/m3/gardener/wp-content/themes/gardner/css/bootstrap.css?ver=4.6.7' type='text/css' media='all' />
+<link rel='stylesheet' id='flaticon-css'  href='http://wp1.themexlab.com/m3/gardener/wp-content/themes/gardner/css/flaticon.css?ver=4.6.7' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css'  href='http://wp1.themexlab.com/m3/gardener/wp-content/plugins/js_composer/assets/lib/bower/font-awesome/css/font-awesome.min.css?ver=5.0.1' type='text/css' media='all' />
+<link rel='stylesheet' id='hover-css'  href='http://wp1.themexlab.com/m3/gardener/wp-content/themes/gardner/css/hover.css?ver=4.6.7' type='text/css' media='all' />
+<link rel='stylesheet' id='animate-css'  href='http://wp1.themexlab.com/m3/gardener/wp-content/themes/gardner/css/animate.css?ver=4.6.7' type='text/css' media='all' />
+<link rel='stylesheet' id='bootstrap-touchspin-css'  href='http://wp1.themexlab.com/m3/gardener/wp-content/themes/gardner/css/jquery.bootstrap-touchspin.css?ver=4.6.7' type='text/css' media='all' />
+<link rel='stylesheet' id='nouislider-css'  href='http://wp1.themexlab.com/m3/gardener/wp-content/themes/gardner/css/nouislider.css?ver=4.6.7' type='text/css' media='all' />
+<link rel='stylesheet' id='nouisliderp-css'  href='http://wp1.themexlab.com/m3/gardener/wp-content/themes/gardner/css/nouislider.pips.css?ver=4.6.7' type='text/css' media='all' />
+<link rel='stylesheet' id='fancybox-css'  href='http://wp1.themexlab.com/m3/gardener/wp-content/themes/gardner/css/jquery.fancybox.css?ver=4.6.7' type='text/css' media='all' />
+<link rel='stylesheet' id='owl-css'  href='http://wp1.themexlab.com/m3/gardener/wp-content/themes/gardner/css/owl.css?ver=4.6.7' type='text/css' media='all' />
+<link rel='stylesheet' id='revolution-slider-css'  href='http://wp1.themexlab.com/m3/gardener/wp-content/themes/gardner/css/revolution-slider.css?ver=4.6.7' type='text/css' media='all' />
+<link rel='stylesheet' id='gardner-main-style-css'  href='http://wp1.themexlab.com/m3/gardener/wp-content/themes/gardner/style.css?ver=4.6.7' type='text/css' media='all' />
+<link rel='stylesheet' id='gardner-responsive-css'  href='http://wp1.themexlab.com/m3/gardener/wp-content/themes/gardner/css/responsive.css?ver=4.6.7' type='text/css' media='all' />
+<link rel='stylesheet' id='gardner_woocommerce-css'  href='http://wp1.themexlab.com/m3/gardener/wp-content/themes/gardner/css/woocommerce.css?ver=4.6.7' type='text/css' media='all' />
+<link rel='stylesheet' id='woo-css'  href='http://wp1.themexlab.com/m3/gardener/wp-content/themes/gardner/css/woo.css?ver=4.6.7' type='text/css' media='all' />
+<link rel='stylesheet' id='gardner-custom-css'  href='http://wp1.themexlab.com/m3/gardener/wp-content/themes/gardner/css/custom.css?ver=4.6.7' type='text/css' media='all' />
+<link rel='stylesheet' id='gardner-theme-slug-fonts-css'  href='https://fonts.googleapis.com/css?family=Playfair+Display%3A400%2C400italic%2C700%2C700italic%7CMontserrat%3A400%2C700%7COpen+Sans%3A400%2C300%2C300italic%2C400italic%2C600%2C600italic%2C700%2C700italic%7CRaleway%3A400%2C500%2C600%2C700%2C800&#038;subset=latin%2Clatin-ext' type='text/css' media='all' />
+<script type='text/javascript' src='http://wp1.themexlab.com/m3/gardener/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://wp1.themexlab.com/m3/gardener/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='http://wp1.themexlab.com/m3/gardener/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.tools.min.js?ver=5.1.5'></script>
+<script type='text/javascript' src='http://wp1.themexlab.com/m3/gardener/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min.js?ver=5.1.5'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wc_add_to_cart_params = {"ajax_url":"\/m3\/gardener\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/m3\/gardener\/wp-content\/themes\/gardner\/images\/gradient\/g40.png?wc-ajax=%%endpoint%%","i18n_view_cart":"View Cart","cart_url":"http:\/\/wp1.themexlab.com\/m3\/gardener\/cart\/","is_cart":"","cart_redirect_after_add":"no"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='//wp1.themexlab.com/m3/gardener/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=2.6.9'></script>
+<script type='text/javascript' src='http://wp1.themexlab.com/m3/gardener/wp-content/plugins/js_composer/assets/js/vendors/woocommerce-add-to-cart.js?ver=5.0.1'></script>
+<script type='text/javascript' src='http://maps.google.com/maps/api/js?key=AIzaSyCRvBPo3-t31YFk588DpMYS6EqKf-oGBSI&#038;ver=4.6.7'></script>
+<script type='text/javascript' src='http://wp1.themexlab.com/m3/gardener/wp-content/themes/gardner/js/googlemaps.js?ver=4.6.7'></script>
+<script type='text/javascript' src='http://wp1.themexlab.com/m3/gardener/wp-content/themes/gardner/js/html5shiv.js?ver=4.6.7'></script>
+<script type='text/javascript' src='http://wp1.themexlab.com/m3/gardener/wp-content/themes/gardner/js/respond.js?ver=4.6.7'></script>
+<link rel='https://api.w.org/' href='http://wp1.themexlab.com/m3/gardener/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://wp1.themexlab.com/m3/gardener/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://wp1.themexlab.com/m3/gardener/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.6.7" />
+<meta name="generator" content="WooCommerce 2.6.9" />
+		<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+		<meta name="generator" content="Powered by Visual Composer - drag and drop page builder for WordPress."/>
+<!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="http://wp1.themexlab.com/m3/gardener/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css" media="screen"><![endif]--><meta name="generator" content="Powered by Slider Revolution 5.1.5 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
+<noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript>	</head>
+<body class="error404 wpb-js-composer js-comp-ver-5.0.1 vc_responsive">
+<div class="page-wrapper">
+ 	
+    <!-- Preloader -->
+     	
+    
+
+    <!--Main Header-->
+    <header class="main-header">
+        
+        <!--Header-Upper-->
+        <div class="header-upper">
+        	<div class="auto-container">
+            	<div class="clearfix">
+                	<div class="pull-left logo-outer">
+                    	<div class="logo">
+                        	                                <a href="http://wp1.themexlab.com/m3/gardener/"><img src="http://wp1.themexlab.com/m3/gardener/wp-content/themes/gardner/images/logo.png" alt="logo"></a>
+                                                    </div>
+                    </div>
+                    <div class="pull-right upper-right clearfix">
+                    	
+                    <!--Info Box-->
+						
+                        <div class="upper-column info-box">
+							<div class="icon-box"><span class="flaticon-phone-call"></span></div>
+                            <ul>
+								<li><strong> +49 123 456 789</strong></li>
+                                <li><a href="mailto:something@gardner.com">something@gardner.com</a></li>
+                            </ul>
+                        </div>
+                                            <!--Info Box-->
+						
+                        <div class="upper-column info-box">
+							<div class="icon-box"><span class="flaticon-clock"></span></div>
+                            <ul>
+								<li><strong>House# 320,Road 8/A</strong></li>
+                                <li>Dhanmondi R/A, Dhaka, 1209</li>
+                            </ul>
+                        </div>
+                       
+                        <!--Info Box-->
+                    <div class="upper-column info-box">
+                     
+					<div class="social-links-one">
+					    			<a href="#"><span class="fa fa-facebook"></span></a>
+									<a href="#"><span class="fa fa-twitter"></span></a>
+									<a href="#"><span class="fa fa-google-plus"></span></a>
+									<a href="#"><span class="fa fa-youtube"></span></a>
+								
+                        </div>
+						                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!--Header-Lower-->
+        <div class="header-lower">
+        	<!--Background Layer-->
+            <div class="bg-layer"></div>
+        	<div class="auto-container">
+            	<div class="nav-outer clearfix">
+                    <!-- Main Menu -->
+                    <nav class="main-menu">
+                        <div class="navbar-header">
+                            <!-- Toggle Button -->    	
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                        <div class="navbar-collapse collapse clearfix">
+                            <ul class="navigation clearfix">
+                                <li id="menu-item-34" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-34 dropdown"><a title="Home" href="http://wp1.themexlab.com/m3/gardener/home/" data-toggle="dropdown1" class="hvr-underline-from-left1" aria-expanded="false" data-scroll data-options="easing: easeOutQuart">Home</a>
+<ul role="menu" class="submenu">
+	<li id="menu-item-504" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-504"><a title="Home One" href="http://wp1.themexlab.com/m3/gardener/?header_style=header_v1">Home One</a></li>
+	<li id="menu-item-36" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-36"><a title="Home Two" href="http://wp1.themexlab.com/m3/gardener/home-two/">Home Two</a></li>
+	<li id="menu-item-501" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-501 dropdown"><a title="Header Style" href="#">Header Style</a>
+	<ul role="menu" class="submenu">
+		<li id="menu-item-502" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-502"><a title="Header Style One" href="http://wp1.themexlab.com/m3/gardener/home-two/?header_style=header_v1">Header Style One</a></li>
+		<li id="menu-item-503" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-503"><a title="Header Style Two" href="http://wp1.themexlab.com/m3/gardener/home-two/?header_style=header_v2">Header Style Two</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li id="menu-item-29" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-29 dropdown"><a title="About Us" href="http://wp1.themexlab.com/m3/gardener/about-us/" data-toggle="dropdown1" class="hvr-underline-from-left1" aria-expanded="false" data-scroll data-options="easing: easeOutQuart">About Us</a>
+<ul role="menu" class="submenu">
+	<li id="menu-item-406" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-406"><a title="About Us" href="http://wp1.themexlab.com/m3/gardener/about-us-2/">About Us</a></li>
+	<li id="menu-item-39" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-39"><a title="Our Team" href="http://wp1.themexlab.com/m3/gardener/our-team/">Our Team</a></li>
+</ul>
+</li>
+<li id="menu-item-47" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-47 dropdown"><a title="Services" href="http://wp1.themexlab.com/m3/gardener/services/" data-toggle="dropdown1" class="hvr-underline-from-left1" aria-expanded="false" data-scroll data-options="easing: easeOutQuart">Services</a>
+<ul role="menu" class="submenu">
+	<li id="menu-item-81" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-81"><a title="Our Services" href="http://wp1.themexlab.com/m3/gardener/our-services/">Our Services</a></li>
+	<li id="menu-item-76" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-76"><a title="Rubbish Removal" href="http://wp1.themexlab.com/m3/gardener/rubbish-removal/">Rubbish Removal</a></li>
+	<li id="menu-item-75" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-75"><a title="Water Gardening" href="http://wp1.themexlab.com/m3/gardener/water-gardening/">Water Gardening</a></li>
+	<li id="menu-item-77" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-77 dropdown"><a title="Irrigation" href="http://wp1.themexlab.com/m3/gardener/irrigation/">Irrigation</a>
+	<ul role="menu" class="submenu">
+		<li id="menu-item-79" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-79"><a title="Garden Care" href="http://wp1.themexlab.com/m3/gardener/garden-care/">Garden Care</a></li>
+		<li id="menu-item-80" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-80"><a title="Design &#038; Planting" href="http://wp1.themexlab.com/m3/gardener/design-planting/">Design &#038; Planting</a></li>
+		<li id="menu-item-78" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-78"><a title="Lawn Maintanance" href="http://wp1.themexlab.com/m3/gardener/lawn-maintanance/">Lawn Maintanance</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li id="menu-item-48" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-48 dropdown"><a title="Pages" href="http://wp1.themexlab.com/m3/gardener/pages/" data-toggle="dropdown1" class="hvr-underline-from-left1" aria-expanded="false" data-scroll data-options="easing: easeOutQuart">Pages</a>
+<ul role="menu" class="submenu">
+	<li id="menu-item-82" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-82"><a title="Pricing" href="http://wp1.themexlab.com/m3/gardener/pricing/">Pricing</a></li>
+	<li id="menu-item-59" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-59"><a title="FAQs" href="http://wp1.themexlab.com/m3/gardener/faqs/">FAQs</a></li>
+	<li id="menu-item-57" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-57"><a title="Gallery" href="http://wp1.themexlab.com/m3/gardener/gallery/">Gallery</a></li>
+	<li id="menu-item-417" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-417"><a title="404" href="http://wp1.themexlab.com/m3/gardener/xcsdf">404</a></li>
+</ul>
+</li>
+<li id="menu-item-388" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-388 dropdown"><a title="Shop" href="http://wp1.themexlab.com/m3/gardener/shop/" data-toggle="dropdown1" class="hvr-underline-from-left1" aria-expanded="false" data-scroll data-options="easing: easeOutQuart">Shop</a>
+<ul role="menu" class="submenu">
+	<li id="menu-item-387" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-387"><a title="Shop" href="http://wp1.themexlab.com/m3/gardener/shop/">Shop</a></li>
+	<li id="menu-item-385" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-385"><a title="Checkout" href="http://wp1.themexlab.com/m3/gardener/checkout/">Checkout</a></li>
+	<li id="menu-item-386" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-386"><a title="Cart" href="http://wp1.themexlab.com/m3/gardener/cart/">Cart</a></li>
+</ul>
+</li>
+<li id="menu-item-30" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-30 dropdown"><a title="Blog" href="http://wp1.themexlab.com/m3/gardener/blog/" data-toggle="dropdown1" class="hvr-underline-from-left1" aria-expanded="false" data-scroll data-options="easing: easeOutQuart">Blog</a>
+<ul role="menu" class="submenu">
+	<li id="menu-item-31" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31"><a title="Blog Grid View" href="http://wp1.themexlab.com/m3/gardener/blog-grid-view/">Blog Grid View</a></li>
+	<li id="menu-item-32" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-32"><a title="Blog List View" href="http://wp1.themexlab.com/m3/gardener/blog-list-view/">Blog List View</a></li>
+	<li id="menu-item-454" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-454"><a title="Single Post" href="http://wp1.themexlab.com/m3/gardener/2016/12/20/why-we-should-choose-the-best-company-for-lawn-8/">Single Post</a></li>
+</ul>
+</li>
+<li id="menu-item-33" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-33"><a title="Contatct Us" href="http://wp1.themexlab.com/m3/gardener/contatct-us/" class="hvr-underline-from-left1" data-scroll data-options="easing: easeOutQuart">Contatct Us</a></li>
+                            </ul>
+                        </div>
+                    </nav><!-- Main Menu End-->
+                                	<div class="btn-outer"><a href="#" class="theme-btn quote-btn"><span class="border"></span>GET FREE CONSULTATION</a>
+					</div>
+					
+                    
+                </div>
+            </div>
+        </div>
+        
+        
+        <!--Sticky Header-->
+        <div class="sticky-header">
+        	<div class="auto-container clearfix">
+            	<!--Logo-->
+            	<div class="logo pull-left">
+                	                                <a href="http://wp1.themexlab.com/m3/gardener/"><img src="http://wp1.themexlab.com/m3/gardener/wp-content/themes/gardner/images/logo-small.png" alt="logo"></a>
+                                         </div>
+                
+                <!--Right Col-->
+                <div class="right-col pull-right">
+                	<!-- Main Menu -->
+                    <nav class="main-menu">
+                        <div class="navbar-header">
+                            <!-- Toggle Button -->    	
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                        
+                        <div class="navbar-collapse collapse clearfix">
+                            <ul class="navigation clearfix">
+                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-34 dropdown"><a title="Home" href="http://wp1.themexlab.com/m3/gardener/home/" data-toggle="dropdown1" class="hvr-underline-from-left1" aria-expanded="false" data-scroll data-options="easing: easeOutQuart">Home</a>
+<ul role="menu" class="submenu">
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-504"><a title="Home One" href="http://wp1.themexlab.com/m3/gardener/?header_style=header_v1">Home One</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-36"><a title="Home Two" href="http://wp1.themexlab.com/m3/gardener/home-two/">Home Two</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-501 dropdown"><a title="Header Style" href="#">Header Style</a>
+	<ul role="menu" class="submenu">
+		<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-502"><a title="Header Style One" href="http://wp1.themexlab.com/m3/gardener/home-two/?header_style=header_v1">Header Style One</a></li>
+		<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-503"><a title="Header Style Two" href="http://wp1.themexlab.com/m3/gardener/home-two/?header_style=header_v2">Header Style Two</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-29 dropdown"><a title="About Us" href="http://wp1.themexlab.com/m3/gardener/about-us/" data-toggle="dropdown1" class="hvr-underline-from-left1" aria-expanded="false" data-scroll data-options="easing: easeOutQuart">About Us</a>
+<ul role="menu" class="submenu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-406"><a title="About Us" href="http://wp1.themexlab.com/m3/gardener/about-us-2/">About Us</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-39"><a title="Our Team" href="http://wp1.themexlab.com/m3/gardener/our-team/">Our Team</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-47 dropdown"><a title="Services" href="http://wp1.themexlab.com/m3/gardener/services/" data-toggle="dropdown1" class="hvr-underline-from-left1" aria-expanded="false" data-scroll data-options="easing: easeOutQuart">Services</a>
+<ul role="menu" class="submenu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-81"><a title="Our Services" href="http://wp1.themexlab.com/m3/gardener/our-services/">Our Services</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-76"><a title="Rubbish Removal" href="http://wp1.themexlab.com/m3/gardener/rubbish-removal/">Rubbish Removal</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-75"><a title="Water Gardening" href="http://wp1.themexlab.com/m3/gardener/water-gardening/">Water Gardening</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-77 dropdown"><a title="Irrigation" href="http://wp1.themexlab.com/m3/gardener/irrigation/">Irrigation</a>
+	<ul role="menu" class="submenu">
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-79"><a title="Garden Care" href="http://wp1.themexlab.com/m3/gardener/garden-care/">Garden Care</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-80"><a title="Design &#038; Planting" href="http://wp1.themexlab.com/m3/gardener/design-planting/">Design &#038; Planting</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-78"><a title="Lawn Maintanance" href="http://wp1.themexlab.com/m3/gardener/lawn-maintanance/">Lawn Maintanance</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-48 dropdown"><a title="Pages" href="http://wp1.themexlab.com/m3/gardener/pages/" data-toggle="dropdown1" class="hvr-underline-from-left1" aria-expanded="false" data-scroll data-options="easing: easeOutQuart">Pages</a>
+<ul role="menu" class="submenu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-82"><a title="Pricing" href="http://wp1.themexlab.com/m3/gardener/pricing/">Pricing</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-59"><a title="FAQs" href="http://wp1.themexlab.com/m3/gardener/faqs/">FAQs</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-57"><a title="Gallery" href="http://wp1.themexlab.com/m3/gardener/gallery/">Gallery</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-417"><a title="404" href="http://wp1.themexlab.com/m3/gardener/xcsdf">404</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-388 dropdown"><a title="Shop" href="http://wp1.themexlab.com/m3/gardener/shop/" data-toggle="dropdown1" class="hvr-underline-from-left1" aria-expanded="false" data-scroll data-options="easing: easeOutQuart">Shop</a>
+<ul role="menu" class="submenu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-387"><a title="Shop" href="http://wp1.themexlab.com/m3/gardener/shop/">Shop</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-385"><a title="Checkout" href="http://wp1.themexlab.com/m3/gardener/checkout/">Checkout</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-386"><a title="Cart" href="http://wp1.themexlab.com/m3/gardener/cart/">Cart</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-30 dropdown"><a title="Blog" href="http://wp1.themexlab.com/m3/gardener/blog/" data-toggle="dropdown1" class="hvr-underline-from-left1" aria-expanded="false" data-scroll data-options="easing: easeOutQuart">Blog</a>
+<ul role="menu" class="submenu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31"><a title="Blog Grid View" href="http://wp1.themexlab.com/m3/gardener/blog-grid-view/">Blog Grid View</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-32"><a title="Blog List View" href="http://wp1.themexlab.com/m3/gardener/blog-list-view/">Blog List View</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-454"><a title="Single Post" href="http://wp1.themexlab.com/m3/gardener/2016/12/20/why-we-should-choose-the-best-company-for-lawn-8/">Single Post</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-33"><a title="Contatct Us" href="http://wp1.themexlab.com/m3/gardener/contatct-us/" class="hvr-underline-from-left1" data-scroll data-options="easing: easeOutQuart">Contatct Us</a></li>
+                            </ul>
+                        </div>
+                    </nav><!-- Main Menu End-->
+                </div>
+                
+            </div>
+        </div><!--End Sticky Header-->
+    
+    </header>
+    <!--End Main Header -->	
+ 	
+<section class="page-title" style="background-image:url('http://wp1.themexlab.com/m3/gardener/wp-content/uploads/2016/12/call-action-two-2.jpg');">
+        <div class="auto-container">
+            <h1>404 Page not Found</h1>
+            <!--Bread Crumb -->
+            <div class="breadcrumb-column">
+                <ul class="bread-crumb clearfix">
+                    <ul class="brc"><li><a href="http://wp1.themexlab.com/m3/gardener/">Home</a></li><li>404 - Not Found</li></ul>                </ul>
+            </div>
+        </div>
+</section>
+
+<section class="error-section">
+    	<div class="auto-container">
+            			<figure class="right-img">
+            <img src="http://wp1.themexlab.com/m3/gardener/wp-content/themes/gardener/images/logo.png" alt="" />
+            </figure>
+			            <!--inner-title-->
+            <div class="inner-title text-center">
+            			<div class="big-text"><span>404</span>
+            </div>
+						 			<h2>Somthing is wrong!!</h2>
+					   		   <div class="text">The page you are looking for was moved removed renamed or might never existed.           </div>
+		   <a href="http://wp1.themexlab.com/m3/gardener/" class="theme-btn btn-style-one">Go Home</a>
+            </div>
+        </div>
+    </section>
+<!--  Your Blog Content End Here -->  		
+	    <footer class="main-footer">
+        <!--Footer Upper-->
+			
+        <div class="footer-upper">
+                            <div class="auto-container">
+                    <div class="row clearfix">
+                        <div class="sidebar "><div id="bunch_about_us-2" class="col-md-3 col-sm-6 col-xs-12 column footer-widget widget_bunch_about_us">			<!--Footer Column-->
+			<div class="about-widget">
+				 <h2>About Us</h2> 
+				 <div class="text">
+					<p>Lorem ipsum dolor sit amet, natum latine copiosa at quo, suas labore saperet ei has. Ad natum lore splendide consectetuer duo it need be check duo there any quote for write lorem sit latine suas nat dummy sample text.</p>
+				</div>
+                      
+					 <ul class="footer-social">
+                         
+			<a title="facebook" href="#"><span class="fa fa-facebook"></span></a>
+
+			<a title="twiter" href="#"><span class="fa fa-twitter"></span></a>
+
+			<a title="google" href="#"><span class="fa fa-google-plus"></span></a>
+
+			<a title="youtube" href="#"><span class="fa fa-youtube"></span></a>
+                     </ul>          
+                                  </div>
+            
+		</div></div><div class="sidebar "><div id="nav_menu-4"  class="col-md-3 col-sm-6 col-xs-12 column footer-widget widget_nav_menu"><h2>Pages Links</h2><div class="menu-footermenu2-container"><ul id="menu-footermenu2" class="menu"><li id="menu-item-469" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-469"><a href="http://wp1.themexlab.com/m3/gardener/our-services/">Our Services</a></li>
+<li id="menu-item-470" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-470"><a href="http://wp1.themexlab.com/m3/gardener/pricing/">Pricing</a></li>
+<li id="menu-item-471" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-471"><a href="http://wp1.themexlab.com/m3/gardener/gallery/">Gallery</a></li>
+<li id="menu-item-472" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-472"><a href="http://wp1.themexlab.com/m3/gardener/404-2/">404</a></li>
+<li id="menu-item-473" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-473"><a href="http://wp1.themexlab.com/m3/gardener/faqs/">FAQs</a></li>
+</ul></div></div></div><div class="sidebar "><div id="nav_menu-3"  class="col-md-3 col-sm-6 col-xs-12 column footer-widget widget_nav_menu"><h2>Our Service</h2><div class="menu-footermenu1-container"><ul id="menu-footermenu1" class="menu"><li id="menu-item-464" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-464"><a href="http://wp1.themexlab.com/m3/gardener/irrigation/">Irrigation</a></li>
+<li id="menu-item-465" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-465"><a href="http://wp1.themexlab.com/m3/gardener/lawn-maintanance/">Lawn Maintanance</a></li>
+<li id="menu-item-466" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-466"><a href="http://wp1.themexlab.com/m3/gardener/garden-care/">Garden Care</a></li>
+<li id="menu-item-467" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-467"><a href="http://wp1.themexlab.com/m3/gardener/design-planting/">Design &#038; Planting</a></li>
+<li id="menu-item-468" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-468"><a href="http://wp1.themexlab.com/m3/gardener/our-services/">Our Services</a></li>
+</ul></div></div></div><div class="sidebar "><div id="bunch_contact_us-2" class="col-md-3 col-sm-6 col-xs-12 column footer-widget widget_bunch_contact_us">      		
+			<!--Footer Column-->
+	    <div class="footer-widget">
+		   <h2>About Us</h2>  
+			<ul class="contact-info">
+				<li><span class="flaticon-placeholder-1"></span>60 Grant Ave. Central New Road 0708, UK</li>
+				<li><span class="flaticon-technology-1"></span>(880) 1723801729</li>
+				<li><span class="flaticon-email-envelope-outline-shape-with-rounded-corners"></span>example@gmail.com</li>
+				<li><span class="flaticon-clock-4"></span>Sunday Closed 9:00pm - 5:00pmdfsaf</li>
+			</ul>
+		</div>
+		   
+		   
+		</div></div>                    </div>
+                </div>
+            
+        </div>
+        		        <!--Footer Bottom-->
+    	<div class="footer-bottom">
+            <div class="auto-container">
+                <div class="outer-box clearfix">
+                    <!--Copyright-->
+                	<div>
+                    	<div class="copyright">Copyright 2016 © Theme Created By <a>TonaTheme </a>with love</div>
+                    </div>
+                 </div>
+            </div>
+        </div>
+            </footer>
+	
+</div>
+<!--End pagewrapper-->
+<!--Scroll to top-->
+<div class="scroll-to-top scroll-to-target" data-target=".main-header"><span class="icon fa fa-long-arrow-up"></span></div>
+
+<script type='text/javascript' src='http://wp1.themexlab.com/m3/gardener/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://wp1.themexlab.com/m3/gardener/wp-includes/js/jquery/ui/widget.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://wp1.themexlab.com/m3/gardener/wp-includes/js/jquery/ui/mouse.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://wp1.themexlab.com/m3/gardener/wp-includes/js/jquery/ui/resizable.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://wp1.themexlab.com/m3/gardener/wp-includes/js/jquery/ui/draggable.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://wp1.themexlab.com/m3/gardener/wp-includes/js/jquery/ui/button.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://wp1.themexlab.com/m3/gardener/wp-includes/js/jquery/ui/position.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://wp1.themexlab.com/m3/gardener/wp-includes/js/jquery/ui/dialog.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://wp1.themexlab.com/m3/gardener/wp-includes/js/wpdialog.min.js?ver=4.6.7'></script>
+<script type='text/javascript' src='http://wp1.themexlab.com/m3/gardener/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js?ver=3.51.0-2014.06.20'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpcf7 = {"recaptcha":{"messages":{"empty":"Please verify that you are not a robot."}}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://wp1.themexlab.com/m3/gardener/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=4.6'></script>
+<script type='text/javascript' src='//wp1.themexlab.com/m3/gardener/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.70'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var woocommerce_params = {"ajax_url":"\/m3\/gardener\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/m3\/gardener\/wp-content\/themes\/gardner\/images\/gradient\/g40.png?wc-ajax=%%endpoint%%"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='//wp1.themexlab.com/m3/gardener/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=2.6.9'></script>
+<script type='text/javascript' src='//wp1.themexlab.com/m3/gardener/wp-content/plugins/woocommerce/assets/js/jquery-cookie/jquery.cookie.min.js?ver=1.4.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wc_cart_fragments_params = {"ajax_url":"\/m3\/gardener\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/m3\/gardener\/wp-content\/themes\/gardner\/images\/gradient\/g40.png?wc-ajax=%%endpoint%%","fragment_name":"wc_fragments"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='//wp1.themexlab.com/m3/gardener/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js?ver=2.6.9'></script>
+<script type='text/javascript' src='http://wp1.themexlab.com/m3/gardener/wp-content/themes/gardner/js/bootstrap.min.js?ver=4.6.7'></script>
+<script type='text/javascript' src='http://wp1.themexlab.com/m3/gardener/wp-content/themes/gardner/js/jquery.bootstrap-touchspin.js?ver=4.6.7'></script>
+<script type='text/javascript' src='http://wp1.themexlab.com/m3/gardener/wp-content/themes/gardner/js/jquery.easing.min.js?ver=4.6.7'></script>
+<script type='text/javascript' src='http://wp1.themexlab.com/m3/gardener/wp-content/themes/gardner/js/jquery.fancybox.pack.js?ver=4.6.7'></script>
+<script type='text/javascript' src='http://wp1.themexlab.com/m3/gardener/wp-content/themes/gardner/js/jquery.fancybox-media.js?ver=4.6.7'></script>
+<script type='text/javascript' src='http://wp1.themexlab.com/m3/gardener/wp-content/themes/gardner/js/mixitup.js?ver=4.6.7'></script>
+<script type='text/javascript' src='http://wp1.themexlab.com/m3/gardener/wp-content/themes/gardner/js/nouislider.js?ver=4.6.7'></script>
+<script type='text/javascript' src='http://wp1.themexlab.com/m3/gardener/wp-content/themes/gardner/js/owl.js?ver=4.6.7'></script>
+<script type='text/javascript' src='http://wp1.themexlab.com/m3/gardener/wp-content/themes/gardner/js/gmaps.js?ver=4.6.7'></script>
+<script type='text/javascript' src='http://wp1.themexlab.com/m3/gardener/wp-content/themes/gardner/js/googlemaps.js?ver=4.6.7'></script>
+<script type='text/javascript' src='http://wp1.themexlab.com/m3/gardener/wp-content/themes/gardner/js/gmaps-setup.js?ver=4.6.7'></script>
+<script type='text/javascript' src='http://wp1.themexlab.com/m3/gardener/wp-content/themes/gardner/js/wow.js?ver=4.6.7'></script>
+<script type='text/javascript' src='http://wp1.themexlab.com/m3/gardener/wp-content/themes/gardner/js/validate.js?ver=4.6.7'></script>
+<script type='text/javascript' src='http://wp1.themexlab.com/m3/gardener/wp-content/themes/gardner/js/script.js?ver=4.6.7'></script>
+<script type='text/javascript' src='http://wp1.themexlab.com/m3/gardener/wp-includes/js/wp-embed.min.js?ver=4.6.7'></script>
+</body>
+</html>

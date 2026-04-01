@@ -1,0 +1,14 @@
+# macOS
+.DS_Store
+Thumbs.db
+
+# Build scripts (not needed in deploy)
+build-static.sh
+post-process.sh
+
+# Editor
+.vscode/
+.idea/
+
+# Node
+node_modules/

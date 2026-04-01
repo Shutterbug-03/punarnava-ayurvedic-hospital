@@ -1,0 +1,41 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "rewrites": [
+    { "source": "/", "destination": "/index.html" },
+    { "source": "/about-us", "destination": "/about-us.html" },
+    { "source": "/services", "destination": "/services.html" },
+    { "source": "/contact", "destination": "/contact.html" },
+    { "source": "/ksharsutra", "destination": "/ksharsutra.html" },
+    { "source": "/typeofpooravkarma", "destination": "/typeofpooravkarma.html" },
+    { "source": "/pooravkarma", "destination": "/pooravkarma.html" },
+    { "source": "/pradhankarma", "destination": "/pradhankarma.html" },
+    { "source": "/paschatyakarma", "destination": "/paschatyakarma.html" },
+    { "source": "/snehan", "destination": "/snehan.html" },
+    { "source": "/swedan", "destination": "/swedan.html" },
+    { "source": "/medical-facilities", "destination": "/medical-facilities.html" },
+    { "source": "/ksharsutra-list", "destination": "/ksharsutra-list.html" }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "X-Content-Type-Options", "value": "nosniff" },
+        { "key": "X-Frame-Options", "value": "DENY" },
+        { "key": "X-XSS-Protection", "value": "1; mode=block" }
+      ]
+    },
+    {
+      "source": "/img/(.*)",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
+      ]
+    },
+    {
+      "source": "/wp-content/(.*)",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
+      ]
+    }
+  ]
+}
