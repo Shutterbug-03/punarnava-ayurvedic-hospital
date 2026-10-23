@@ -10,7 +10,6 @@ import TherapiesGallery from '../components/TherapiesGallery';
 import DoctorsSection from '../components/DoctorsSection';
 import HospitalFacilities from '../components/HospitalFacilities';
 import DoshaChecker from '../components/DoshaChecker';
-import TestimonialsSection from '../components/TestimonialsSection';
 import FaqSection from '../components/FaqSection';
 import Footer from '../components/Footer';
 import ConsultationModal from '../components/ConsultationModal';
@@ -33,7 +32,7 @@ export default function Home() {
   };
 
   return (
-    <main className="min-h-screen flex flex-col bg-[#FAF7F2] text-[#14241E]">
+    <main className="min-h-screen flex flex-col bg-[#FAF7F2] text-[#14241E] pb-16 sm:pb-0">
       {/* Top Header */}
       <Header onOpenConsultation={() => handleOpenConsultation()} />
 
@@ -63,9 +62,6 @@ export default function Home() {
 
       {/* Interactive Symptom to Therapy Guide */}
       <DoshaChecker onOpenConsultation={(therapy) => handleOpenConsultation(therapy)} />
-
-      {/* Verified Patient Outcomes & Reviews */}
-      <TestimonialsSection />
 
       {/* Clinical FAQ Accordion */}
       <FaqSection onOpenConsultation={() => handleOpenConsultation()} />

@@ -68,17 +68,17 @@ export default function ConsultationModal({
       className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/60 backdrop-blur-sm animate-fadeIn cursor-pointer"
     >
       <div
-        className="relative w-full max-w-lg bg-[#FAF7F2] border border-[#E8E1D3] rounded-2xl shadow-2xl overflow-hidden animate-scaleUp cursor-default"
+        className="relative w-full max-w-lg max-h-[92vh] flex flex-col bg-[#FAF7F2] border border-[#E8E1D3] rounded-2xl shadow-2xl overflow-hidden animate-scaleUp cursor-default"
         onClick={(e) => e.stopPropagation()}
       >
         {/* Header Ribbon */}
-        <div className="bg-[#0D3325] px-6 py-5 text-white flex items-start justify-between border-b border-[#C59138]/30">
+        <div className="bg-[#0D3325] px-5 sm:px-6 py-4 sm:py-5 text-white flex items-start justify-between border-b border-[#C59138]/30 shrink-0">
           <div>
             <div className="inline-flex items-center gap-2 px-2.5 py-0.5 rounded-full text-xs font-medium bg-[#C59138]/20 text-[#E8BC6E] border border-[#C59138]/40 mb-2">
               <span className="w-1.5 h-1.5 rounded-full bg-[#E8BC6E] animate-pulse"></span>
               {t.topbar.freeConsultation}
             </div>
-            <h3 className="text-xl font-serif tracking-tight text-[#FAF7F2]">
+            <h3 className="text-lg sm:text-xl font-serif tracking-tight text-[#FAF7F2]">
               {t.bookingModal.title}
             </h3>
             <p className="text-xs text-[#FAF7F2]/80 mt-1 max-w-sm">
@@ -96,7 +96,7 @@ export default function ConsultationModal({
         </div>
 
         {/* Form Body or Success State */}
-        <div className="p-6">
+        <div className="p-5 sm:p-6 overflow-y-auto flex-1">
           {isSubmitted ? (
             <div className="text-center py-8">
               <CheckCircle2 className="w-16 h-16 text-[#144835] mx-auto mb-4 animate-bounce" />
@@ -129,14 +129,14 @@ export default function ConsultationModal({
                   {t.bookingModal.nameLabel} <span className="text-[#A8482A]">*</span>
                 </label>
                 <div className="relative">
-                  <User className="w-4 h-4 text-[#799186] absolute left-3 top-3" />
+                  <User className="w-4 h-4 text-[#799186] absolute left-3 top-3.5" />
                   <input
                     type="text"
                     required
                     value={name}
                     onChange={(e) => setName(e.target.value)}
                     placeholder={isHindi ? "उदा. रमेश कुमार" : "e.g. Ramesh Kumar"}
-                    className="w-full pl-9 pr-3 py-2 bg-white border border-[#E8E1D3] rounded-xl text-sm text-[#14241E] focus:outline-none focus:border-[#C59138] focus:ring-1 focus:ring-[#C59138]"
+                    className="w-full pl-9 pr-3 py-2.5 bg-white border border-[#E8E1D3] rounded-xl text-base sm:text-sm text-[#14241E] focus:outline-none focus:border-[#C59138] focus:ring-1 focus:ring-[#C59138]"
                   />
                 </div>
               </div>
@@ -146,14 +146,14 @@ export default function ConsultationModal({
                   {t.bookingModal.phoneLabel} <span className="text-[#A8482A]">*</span>
                 </label>
                 <div className="relative">
-                  <Phone className="w-4 h-4 text-[#799186] absolute left-3 top-3" />
+                  <Phone className="w-4 h-4 text-[#799186] absolute left-3 top-3.5" />
                   <input
                     type="tel"
                     required
                     value={phone}
                     onChange={(e) => setPhone(e.target.value)}
                     placeholder="+91 98765 43210"
-                    className="w-full pl-9 pr-3 py-2 bg-white border border-[#E8E1D3] rounded-xl text-sm text-[#14241E] focus:outline-none focus:border-[#C59138] focus:ring-1 focus:ring-[#C59138]"
+                    className="w-full pl-9 pr-3 py-2.5 bg-white border border-[#E8E1D3] rounded-xl text-base sm:text-sm text-[#14241E] focus:outline-none focus:border-[#C59138] focus:ring-1 focus:ring-[#C59138]"
                   />
                 </div>
               </div>

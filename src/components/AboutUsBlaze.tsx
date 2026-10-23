@@ -19,60 +19,67 @@ interface ImageItem {
 
 const HOSPITAL_GALLERY: ImageItem[] = [
   {
-    src: '/img/ayurveda-punarnava.png',
+    src: '/img/clinical/pulse-diagnosis.jpg',
     category: 'All',
-    captionEn: 'Punarnava Ayurvedic Hospital Sanctuary',
-    captionHi: 'पुनर्नवा आयुर्वेदिक चिकित्सालय परिसर',
+    captionEn: 'Nadi Pariksha: Three-Finger Radial Pulse Root-Cause Diagnosis',
+    captionHi: 'वरिष्ठ वैद्य द्वारा सूक्ष्म त्रिदोष नाड़ी परीक्षण',
   },
   {
-    src: '/img/shirodhara.jpg',
-    category: 'Panchakarma Detox',
-    captionEn: 'Classical Shirodhara for Stress & Migraine',
-    captionHi: 'अनिद्रा एवं माइग्रेन हेतु शिरोधारा',
-  },
-  {
-    src: '/img/kshar_sutra.jpg',
+    src: '/img/clinical/ksharsutra-setup.jpg',
     category: 'Ksharsutra Surgery',
-    captionEn: 'Standardized 21-Coat Ksharsutra Preparation',
-    captionHi: '21 लेपों से निर्मित प्रामाणिक क्षारसूत्र',
+    captionEn: 'Sterile Day-Care Ksharsutra Minor OT & 21-Layer Thread Tray',
+    captionHi: 'जीवाणुरहित 21-लेपित क्षारसूत्र एवं शल्य प्रक्रिया कक्ष',
   },
   {
-    src: '/img/PATRAPINDA-SWEDANA.jpg',
-    category: 'Joint & Spine Care',
-    captionEn: 'Patra Pinda Swedana for Severe Arthritis',
-    captionHi: 'संधिवात एवं घुटनों हेतु पत्रपिंड स्वेदन',
-  },
-  {
-    src: '/img/snehan.jpg',
+    src: '/img/clinical/shirodhara-procedure.jpg',
     category: 'Panchakarma Detox',
-    captionEn: 'Full-Body Therapeutic Snehan Massage',
-    captionHi: 'औषधीय तैल द्वारा संपूर्ण शरीर स्नेहन',
+    captionEn: 'Classical Shirodhara for Severe Migraine, Stress & Neuro Reset',
+    captionHi: 'तनाव, माइग्रेन एवं अनिद्रा हेतु प्रामाणिक शिरोधारा',
   },
   {
-    src: '/img/infra/infra3.jpg',
-    category: 'Ksharsutra Surgery',
-    captionEn: 'Sterile Day-Care Ksharsutra Procedure Suite',
-    captionHi: 'जीवाणुरहित क्षारसूत्र शल्य कक्ष',
-  },
-  {
-    src: '/img/gallery/nadi-pariksha.jpg',
-    category: 'All',
-    captionEn: 'Nadi Pariksha (Ayurvedic Pulse Diagnosis)',
-    captionHi: 'डॉ. कटियार द्वारा प्रामाणिक नाड़ी परीक्षा',
-  },
-  {
-    src: '/img/basti.jpg',
+    src: '/img/clinical/janu-basti.jpg',
     category: 'Joint & Spine Care',
-    captionEn: 'Medicated Basti for Sciatica & Vata Relief',
-    captionHi: 'साइटिका एवं वात शमन हेतु बस्ती कर्म',
+    captionEn: 'Janu Basti Medicated Warm Oil Retention for Knee Cartilage',
+    captionHi: 'घुटनों के दर्द एवं कार्टिलेज पोषण हेतु जानु बस्ती',
   },
   {
-    src: '/img/infra/infra4.jpg',
+    src: '/img/clinical/potli-swedan.jpg',
+    category: 'Joint & Spine Care',
+    captionEn: 'Patra Pinda Swedana (Potli) Fomentation for Sciatica & Spine',
+    captionHi: 'सर्वाइकल, कमर दर्द एवं साइटिका हेतु पत्रपिंड स्वेदन',
+  },
+  {
+    src: '/img/clinical/panchakarma-droni.jpg',
     category: 'Women\'s Health',
-    captionEn: 'Authentic Medicinal Wood Droni Therapy Suite',
-    captionHi: 'पारंपरिक काष्ठ द्रोणी पंचकर्म कक्ष',
+    captionEn: 'Classical Handcrafted Teakwood Droni Therapy Chamber',
+    captionHi: 'पारंपरिक काष्ठ द्रोणी एवं एकांत पंचकर्म कक्ष',
+  },
+  {
+    src: '/img/clinical/nasya-karma.jpg',
+    category: 'Panchakarma Detox',
+    captionEn: 'Nasya Karma Cranial Infusion for Chronic Sinusitis & Migraine',
+    captionHi: 'साइनस, सिरदर्द एवं ग्रीवा स्तंभ हेतु नस्य कर्म',
+  },
+  {
+    src: '/img/clinical/raktamokshana.jpg',
+    category: 'Ksharsutra Surgery',
+    captionEn: 'Clinical Jalauka Leech Therapy for Varicose Veins & Blood Detox',
+    captionHi: 'वेरिकोज वेन्स एवं दूषित रक्त शुद्धि हेतु जलौका शोधन',
+  },
+  {
+    src: '/img/clinical/vamana-virechana-kashayam.jpg',
+    category: 'Panchakarma Detox',
+    captionEn: 'Fresh Decoction (Kvatha) Preparation for Purificatory Detox',
+    captionHi: 'शुद्ध जड़ी-बूटियों द्वारा क्वाथ निर्माण एवं पाचन शोधन',
+  },
+  {
+    src: '/img/clinical/herbal-pharmacy.jpg',
+    category: 'All',
+    captionEn: 'In-House Ayurvedic Pharmacy & Precision Herbal Dispensary',
+    captionHi: 'प्रमाणित आयुर्वेदिक फार्मेसी एवं शुद्ध औषधि निर्माण',
   },
 ];
+
 
 interface WordProps {
   word: string;

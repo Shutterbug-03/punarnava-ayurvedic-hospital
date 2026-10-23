@@ -3,102 +3,94 @@
 import React from 'react';
 import Image from 'next/image';
 import { useLanguage } from '../context/LanguageContext';
-import { Building2, Sparkles, Check } from 'lucide-react';
+import { Building2, Sparkle, Check, ShieldCheck } from 'lucide-react';
+import { motion } from 'framer-motion';
 
 export default function HospitalFacilities() {
   const { t, isHindi } = useLanguage();
 
   return (
-    <section id="facilities" className="py-16 lg:py-24 bg-[#FAF7F2] border-b border-[#E8E1D3]">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        
-        {/* Section Header */}
-        <div className="text-center max-w-3xl mx-auto mb-14">
-          <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-[#134533]/10 text-[#0D3325] text-xs font-semibold uppercase tracking-wider mb-3">
-            <Building2 className="w-3.5 h-3.5 text-[#C59138]" />
-            <span>{t.facilitiesSection.badge}</span>
+    <section
+      id="facilities"
+      className="py-20 lg:py-28 bg-[#FAF7F2] border-b border-[#E8E1D3] relative overflow-hidden"
+    >
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        {/* 1. Header Group matching AboutUsBlaze style */}
+        <div className="flex flex-col items-center text-center max-w-3xl mx-auto mb-16">
+          <div className="flex items-center gap-2 mb-6">
+            <div className="w-11 h-11 rounded-full border border-[#e3e8f0] flex items-center justify-center bg-white shadow-xs">
+              <motion.div
+                animate={{ rotate: 360 }}
+                transition={{ duration: 8, repeat: Infinity, ease: 'linear' }}
+                className="flex items-center justify-center"
+              >
+                <Building2 size={18} className="text-[#C59138]" />
+              </motion.div>
+            </div>
+            <div className="px-4 py-2 rounded-full border border-[#e3e8f0] flex items-center justify-center bg-white shadow-xs">
+              <span className="text-sm font-semibold text-[#0D3325]">
+                {t.facilitiesSection.badge}
+              </span>
+            </div>
           </div>
-          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-serif font-bold text-[#0D3325] tracking-tight leading-tight">
+
+          <h2 className="text-3xl sm:text-4xl lg:text-[46px] font-serif font-medium text-[#092119] tracking-tight leading-[1.2] mb-5">
             {t.facilitiesSection.title}
           </h2>
-          <p className="mt-4 text-sm sm:text-base text-[#4B6358] leading-relaxed">
+          <p className="text-base sm:text-lg text-[#4B6358] leading-relaxed max-w-2xl">
             {t.facilitiesSection.subtitle}
           </p>
         </div>
 
-        {/* Facilities Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+        {/* 2. Facilities Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-10 mb-12">
           {t.facilitiesSection.items.map((facility, idx) => (
             <div
               key={idx}
-              className="bg-white border border-[#E8E1D3] rounded-2xl overflow-hidden shadow-xs hover:shadow-md transition-all flex flex-col sm:flex-row group"
+              className="bg-white border border-[#E8E1D3] rounded-[32px] overflow-hidden shadow-xs hover:shadow-xl transition-all duration-300 flex flex-col sm:flex-row group hover:-translate-y-1"
             >
-              <div className="relative sm:w-1/2 h-56 sm:h-auto overflow-hidden bg-[#F4EFE6]">
+              <div className="relative sm:w-1/2 h-64 sm:h-auto overflow-hidden bg-[#F4EFE6]">
                 <Image
                   src={facility.image}
                   alt={facility.title}
                   width={400}
                   height={300}
-                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                 />
               </div>
-              <div className="sm:w-1/2 p-6 flex flex-col justify-between">
+              <div className="sm:w-1/2 p-6 sm:p-8 flex flex-col justify-between">
                 <div>
-                  <span className="text-[10px] font-bold text-[#C59138] uppercase tracking-wider block mb-1">
-                    {isHindi ? "प्रमाणित व्यवस्था" : "Hospital Ward"}
+                  <span className="text-[10px] font-bold text-[#C59138] uppercase tracking-wider block mb-1.5">
+                    {isHindi ? 'प्रमाणित चिकित्सालय सुविधा' : 'Certified Infrastructure'}
                   </span>
-                  <h4 className="text-lg font-serif font-bold text-[#0D3325] mb-2 leading-snug">
+                  <h3 className="text-xl font-serif font-bold text-[#0D3325] mb-2 leading-snug">
                     {facility.title}
-                  </h4>
-                  <p className="text-xs text-[#4B6358] leading-relaxed">
+                  </h3>
+                  <p className="text-xs sm:text-sm text-[#4B6358] leading-relaxed">
                     {facility.desc}
                   </p>
                 </div>
-                <div className="mt-4 pt-3 border-t border-[#E8E1D3] flex items-center gap-2 text-[11px] text-[#144835] font-semibold">
-                  <Check className="w-3.5 h-3.5 text-[#C59138]" />
-                  <span>{isHindi ? "जीवाणुरहित एवं पूर्ण स्वच्छ" : "Sterile & Hygienic Standards"}</span>
+
+                <div className="mt-6 pt-4 border-t border-[#E8E1D3] flex items-center gap-2 text-xs text-[#134533] font-semibold">
+                  <Check className="w-4 h-4 text-[#C59138]" />
+                  <span>{isHindi ? 'जीवाणुरहित एवं आयुष मानक' : 'NABH & AYUSH Sterile Standards'}</span>
                 </div>
               </div>
             </div>
           ))}
         </div>
 
-        {/* Additional Real Infrastructure Gallery Banner */}
-        <div className="bg-[#0D3325] text-white rounded-2xl p-6 sm:p-8 flex flex-col lg:flex-row items-center justify-between gap-6 border border-[#C59138]/30">
-          <div className="space-y-2 text-center lg:text-left max-w-xl">
-            <span className="text-xs font-semibold text-[#E8BC6E] uppercase tracking-wider">
-              {isHindi ? "सुविधाएं एवं परामर्श" : "Visiting Punarnava Hospital"}
+        {/* Clinical Assurance Stamp Pill */}
+        <div className="flex items-center justify-center">
+          <div className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-white border border-[#E8E1D3] shadow-xs text-xs font-semibold text-[#0D3325]">
+            <ShieldCheck className="w-4 h-4 text-[#C59138]" />
+            <span>
+              {isHindi
+                ? 'उत्तर प्रदेश शासन एवं आयुष मेडिकल काउंसिल द्वारा पंजीकृत चिकित्सालय'
+                : 'Registered Ayurvedic Hospital under UP State AYUSH Medical Council'}
             </span>
-            <h3 className="text-xl sm:text-2xl font-serif font-bold text-white">
-              {isHindi
-                ? "कानपुर एवं आसपास के जिलों के मरीजों हेतु विशेष व्यवस्था"
-                : "Dedicated Care for Outstation Patients"}
-            </h3>
-            <p className="text-xs sm:text-sm text-white/80">
-              {isHindi
-                ? "लखनऊ, उन्नाव, फतेहपुर, कन्नौज, इटावा एवं दिल्ली से आने वाले मरीजों हेतु डे-केयर विश्राम, त्वरित नाड़ी परीक्षा एवं उसी दिन डिस्चार्ज की सुविधा।"
-                : "Day-care resting rooms, fast-track pulse diagnosis, and same-day discharge protocols for patients traveling from across Uttar Pradesh."}
-            </p>
-          </div>
-
-          <div className="flex flex-wrap items-center justify-center gap-3 shrink-0">
-            <a
-              href="https://maps.google.com/?q=Punarnava+Ayurvedic+Hospital+Kanpur"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="px-5 py-2.5 bg-white text-[#0D3325] hover:bg-[#FAF7F2] rounded-xl text-xs font-semibold transition-all shadow-xs"
-            >
-              {isHindi ? "गूगल मैप पर लोकेशन देखें" : "View on Google Maps"}
-            </a>
-            <a
-              href="tel:+918009708080"
-              className="px-5 py-2.5 bg-[#C59138] hover:bg-[#D4A347] text-[#092119] rounded-xl text-xs font-bold transition-all shadow-xs"
-            >
-              {isHindi ? "ओपीडी सहायता कॉल" : "Call OPD: +91-8009708080"}
-            </a>
           </div>
         </div>
-
       </div>
     </section>
   );

@@ -68,9 +68,12 @@ export const metadata: Metadata = {
     images: ['/img/ayurveda-punarnava.png'],
   },
   icons: {
-    icon: '/favicon.png',
+    icon: [
+      { url: '/favicon.ico', sizes: 'any' },
+      { url: '/favicon.png', type: 'image/png' },
+    ],
     shortcut: '/favicon.png',
-    apple: '/logo.png',
+    apple: '/apple-icon.png',
   },
   other: {
     'geo.region': 'IN-UP',

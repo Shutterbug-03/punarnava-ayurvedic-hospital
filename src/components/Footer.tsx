@@ -3,7 +3,7 @@
 import React from 'react';
 import Image from 'next/image';
 import { useLanguage } from '../context/LanguageContext';
-import { MapPin, Phone, Mail, Clock, ShieldCheck, Heart, ArrowUp } from 'lucide-react';
+import { MapPin, Phone, Mail, Clock, ShieldCheck, ArrowUp } from 'lucide-react';
 
 export default function Footer() {
   const { t, isHindi } = useLanguage();
@@ -13,50 +13,51 @@ export default function Footer() {
   };
 
   return (
-    <footer className="bg-[#092119] text-[#FAF7F2] pt-16 pb-12 border-t border-[#C59138]/30">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <footer className="bg-[#092119] text-[#FAF7F2] pt-20 pb-12 border-t border-[#C59138]/20 relative overflow-hidden">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         
         {/* Main Footer Columns */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 pb-12 border-b border-white/10">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 lg:gap-12 pb-16 border-b border-white/10">
           
           {/* Col 1: Brand & About (4 cols) */}
-          <div className="lg:col-span-4 space-y-4">
+          <div className="lg:col-span-4 space-y-5">
             <div className="flex items-center gap-3">
-              <div className="w-12 h-12 rounded-xl bg-white p-1 border border-[#C59138]/40 shrink-0 flex items-center justify-center">
+              <div className="w-12 h-12 rounded-full bg-white p-0.5 border border-[#C59138]/50 shrink-0 flex items-center justify-center overflow-hidden shadow-xs">
                 <Image
-                  src="/logo.png"
+                  src="/punarnava-hospital-logo.png"
                   alt="Punarnava Ayurvedic Hospital"
-                  width={44}
-                  height={44}
-                  className="object-contain"
+                  width={46}
+                  height={46}
+                  className="w-full h-full object-contain"
+                  unoptimized
                 />
               </div>
               <div>
-                <h3 className="font-serif text-lg font-bold text-white tracking-tight leading-tight">
+                <h3 className="font-serif text-xl font-bold text-white tracking-tight leading-tight">
                   {isHindi ? "पुनर्नवा आयुर्वेदिक हॉस्पिटल" : "PUNARNAVA HOSPITAL"}
                 </h3>
-                <p className="text-[11px] text-[#C59138] font-medium tracking-wide uppercase">
+                <p className="text-[11px] text-[#C59138] font-semibold tracking-wider uppercase">
                   {isHindi ? "पंचकर्म एवं क्षारसूत्र केंद्र · कानपुर" : "Panchakarma & Ksharsutra Centre"}
                 </p>
               </div>
             </div>
 
-            <p className="text-xs text-[#FAF7F2]/80 leading-relaxed max-w-sm">
+            <p className="text-xs sm:text-sm text-[#FAF7F2]/80 leading-relaxed max-w-sm">
               {t.footer.aboutText}
             </p>
 
-            <div className="pt-2 flex items-center gap-2 text-xs text-[#E8BC6E]">
-              <ShieldCheck className="w-4 h-4 text-[#C59138]" />
+            <div className="pt-2 flex items-center gap-2 text-xs text-[#E8BC6E] font-medium">
+              <ShieldCheck className="w-4 h-4 text-[#C59138] shrink-0" />
               <span>{t.footer.statutory}</span>
             </div>
           </div>
 
           {/* Col 2: Clinical Treatments (3 cols) */}
-          <div className="lg:col-span-3 space-y-3">
+          <div className="lg:col-span-3 space-y-4">
             <h4 className="text-xs font-bold text-[#C59138] uppercase tracking-wider">
               {t.footer.departmentsTitle}
             </h4>
-            <ul className="space-y-2 text-xs text-[#FAF7F2]/80">
+            <ul className="space-y-2.5 text-xs text-[#FAF7F2]/80">
               <li>
                 <a href="#ksharsutra" className="hover:text-[#C59138] transition-colors">
                   {isHindi ? "बवासीर (Piles) क्षारसूत्र शल्यकर्म" : "Piles / Hemorrhoids Ksharsutra"}
@@ -96,12 +97,12 @@ export default function Footer() {
           </div>
 
           {/* Col 3: Contact & Timings (5 cols) */}
-          <div className="lg:col-span-5 space-y-3">
+          <div className="lg:col-span-5 space-y-4">
             <h4 className="text-xs font-bold text-[#C59138] uppercase tracking-wider">
               {t.footer.contactTitle}
             </h4>
             
-            <div className="space-y-2.5 text-xs text-[#FAF7F2]/80">
+            <div className="space-y-3 text-xs text-[#FAF7F2]/80">
               <div className="flex items-start gap-2.5">
                 <MapPin className="w-4 h-4 text-[#C59138] shrink-0 mt-0.5" />
                 <span>{t.footer.address}</span>
@@ -110,7 +111,7 @@ export default function Footer() {
               <div className="flex items-center gap-2.5">
                 <Phone className="w-4 h-4 text-[#C59138] shrink-0" />
                 <div className="flex flex-wrap gap-2">
-                  <a href="tel:+918009708080" className="hover:text-[#C59138] font-semibold text-white">
+                  <a href="tel:+918009708080" className="hover:text-[#C59138] font-bold text-white">
                     +91-8009708080
                   </a>
                   <span>/</span>
@@ -141,7 +142,7 @@ export default function Footer() {
             </div>
 
             {/* Embedded Google Map */}
-            <div className="mt-4 rounded-xl overflow-hidden border border-white/20 h-32 w-full">
+            <div className="mt-4 rounded-2xl overflow-hidden border border-white/15 h-36 w-full shadow-inner">
               <iframe
                 title="Punarnava Ayurvedic Hospital Location Map"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3570.8330214978655!2d80.276700613852!3d26.49332068331002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399c3820d01fb6b3%3A0x7e0f11e76baaa0a5!2sLucky%20Restaurant!5e0!3m2!1sen!2sin!4v1567164231334!5m2!1sen!2sin"
@@ -157,8 +158,17 @@ export default function Footer() {
 
         </div>
 
+        {/* Monumental Wordmark Footer Row */}
+        <div className="pt-10 pb-6 flex items-center justify-center">
+          <div className="text-center w-full">
+            <span className="font-serif font-bold text-4xl sm:text-6xl md:text-8xl tracking-[0.18em] text-white/[0.07] uppercase block select-none">
+              PUNARNAVA
+            </span>
+          </div>
+        </div>
+
         {/* Bottom Bar: Copyright & Back to Top */}
-        <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-[#FAF7F2]/60">
+        <div className="pt-4 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-[#FAF7F2]/60">
           <div>
             <p>{t.footer.copyright}</p>
             <p className="text-[11px] text-[#FAF7F2]/40 mt-0.5">
@@ -169,7 +179,7 @@ export default function Footer() {
           <div className="flex items-center gap-4">
             <button
               onClick={scrollToTop}
-              className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-white/5 hover:bg-white/10 text-white/80 hover:text-white transition-colors cursor-pointer"
+              className="inline-flex items-center gap-1.5 px-4 py-2 rounded-full bg-white/5 hover:bg-white/10 text-white/80 hover:text-white transition-colors cursor-pointer border border-white/10 text-xs font-semibold"
             >
               <ArrowUp className="w-3.5 h-3.5 text-[#C59138]" />
               <span>{isHindi ? "शीर्ष पर जाएं" : "Back to Top"}</span>
@@ -179,7 +189,7 @@ export default function Footer() {
 
       </div>
 
-      {/* Persistent Floating WhatsApp Help Button */}
+      {/* Floating WhatsApp Help Button */}
       <a
         href="https://wa.me/918009708080?text=Hello%20Punarnava%20Hospital%2C%20I%20would%20like%20to%20consult%20regarding%20treatment"
         target="_blank"
