@@ -14,6 +14,7 @@ import FaqSection from '../components/FaqSection';
 import Footer from '../components/Footer';
 import ConsultationModal from '../components/ConsultationModal';
 import AboutUsBlaze from '../components/AboutUsBlaze';
+import LanguagePreferenceModal from '../components/LanguagePreferenceModal';
 
 export default function Home() {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -75,6 +76,9 @@ export default function Home() {
         onClose={handleCloseConsultation}
         defaultDepartment={selectedDept}
       />
+
+      {/* Language Preference Prompt on First Landing */}
+      <LanguagePreferenceModal />
     </main>
   );
 }
