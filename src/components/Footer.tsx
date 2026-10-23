@@ -3,7 +3,7 @@
 import React from 'react';
 import Image from 'next/image';
 import { useLanguage } from '../context/LanguageContext';
-import { MapPin, Phone, Mail, Clock, ShieldCheck, ArrowUp } from 'lucide-react';
+import { MapPin, Phone, Mail, Clock, ShieldCheck, ArrowUp, ExternalLink } from 'lucide-react';
 
 export default function Footer() {
   const { t, isHindi } = useLanguage();
@@ -105,7 +105,16 @@ export default function Footer() {
             <div className="space-y-3 text-xs text-[#FAF7F2]/80">
               <div className="flex items-start gap-2.5">
                 <MapPin className="w-4 h-4 text-[#C59138] shrink-0 mt-0.5" />
-                <span>{t.footer.address}</span>
+                <a
+                  href="https://maps.app.goo.gl/GouFfgFTu7vqa9Je8"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-[#C59138] transition-colors underline decoration-[#C59138]/40 underline-offset-2 inline-flex items-center gap-1.5"
+                  title="Open location in Google Maps"
+                >
+                  <span>{t.footer.address}</span>
+                  <ExternalLink className="w-3 h-3 text-[#C59138] shrink-0" />
+                </a>
               </div>
 
               <div className="flex items-center gap-2.5">
@@ -141,17 +150,26 @@ export default function Footer() {
               </div>
             </div>
 
-            {/* Embedded Google Map */}
-            <div className="mt-4 rounded-2xl overflow-hidden border border-white/15 h-36 w-full shadow-inner">
+            {/* Embedded Google Map with Direct Google Maps Button */}
+            <div className="mt-4 rounded-2xl overflow-hidden border border-white/15 h-40 w-full shadow-inner relative group">
               <iframe
                 title="Punarnava Ayurvedic Hospital Location Map"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3570.8330214978655!2d80.276700613852!3d26.49332068331002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399c3820d01fb6b3%3A0x7e0f11e76baaa0a5!2sLucky%20Restaurant!5e0!3m2!1sen!2sin!4v1567164231334!5m2!1sen!2sin"
+                src="https://maps.google.com/maps?q=Punarnava+Ayurvedic+Hospital+Panchkarma+%26+Ksharsutra+Centre,+Lakhanpur,+Vikas+Nagar,+Kanpur&t=&z=16&ie=UTF8&iwloc=&output=embed"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
                 allowFullScreen={false}
                 loading="lazy"
               ></iframe>
+              <a
+                href="https://maps.app.goo.gl/GouFfgFTu7vqa9Je8"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="absolute bottom-2.5 right-2.5 px-3 py-1.5 bg-[#0D3325]/95 hover:bg-[#0D3325] text-white text-[11px] font-bold rounded-xl border border-[#C59138]/50 backdrop-blur-md flex items-center gap-1.5 shadow-lg transition-transform active:scale-95 cursor-pointer"
+              >
+                <span>{isHindi ? "गूगल मैप पर दिशा देखें" : "Open in Google Maps"}</span>
+                <ExternalLink className="w-3 h-3 text-[#C59138]" />
+              </a>
             </div>
 
           </div>

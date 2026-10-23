@@ -738,8 +738,14 @@ export default function Header({ onOpenConsultation }: HeaderProps) {
               </div>
 
               {/* Hospital Timings & Kanpur Location Pill */}
-              <div className="p-3.5 bg-white border border-[#E8E1D3] rounded-2xl text-xs space-y-1.5">
-                <div className="flex items-center gap-2 text-[#0D3325] font-semibold">
+              <a
+                href="https://maps.app.goo.gl/GouFfgFTu7vqa9Je8"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block p-3.5 bg-white border border-[#E8E1D3] hover:border-[#0D3325] rounded-2xl text-xs space-y-1.5 transition-colors group"
+                title="Open hospital location in Google Maps"
+              >
+                <div className="flex items-center gap-2 text-[#0D3325] font-semibold group-hover:text-[#C59138] transition-colors">
                   <MapPin className="w-3.5 h-3.5 text-[#C59138] shrink-0" />
                   <span>68, Lakhanpur, Vikas Nagar, G.T. Road, Kanpur</span>
                 </div>
@@ -747,7 +753,7 @@ export default function Header({ onOpenConsultation }: HeaderProps) {
                   <Clock className="w-3.5 h-3.5 text-[#C59138] shrink-0" />
                   <span>OPD: 9:30 AM – 2:00 PM & 5:30 PM – 8:00 PM</span>
                 </div>
-              </div>
+              </a>
             </div>
 
             {/* Fixed Drawer Bottom Primary CTA */}
