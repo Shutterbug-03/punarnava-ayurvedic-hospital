@@ -25,7 +25,7 @@ export const translations = {
     },
     hero: {
       tagline: "Ayurvedic Surgery & Panchakarma Centre · Kanpur",
-      headline: "Permanent Cure for Piles & Fistula without Conventional Surgery",
+      headline: "Permanent Cure for Piles & Fistula",
       subheadline: "Led by Dr. B.S. Katiyar (MD, PGCKS) with 20+ years of clinical excellence. We offer ancient Ayurvedic Ksharsutra surgery and classical Panchakarma therapy under local anaesthesia with minimal downtime.",
       primaryCta: "Book Free Consultation",
       secondaryCta: "Explore Ksharsutra Treatment",
@@ -427,7 +427,7 @@ export const translations = {
     },
     hero: {
       tagline: "प्रामाणिक आयुर्वेद एवं पंचकर्म संस्थान · कानपुर",
-      headline: "बवासीर, भगंदर एवं फिशर का बिना चीरफाड़ स्थाई उपचार",
+      headline: "बवासीर एवं भगंदर का स्थाई उपचार",
       subheadline: "डॉ. बी.एस. कटियार (एम.डी. आयुर्वेद, पीजीसीकेएस) के 20+ वर्षों के अनुभव द्वारा निर्देशित। बिना जनरल एनेस्थीसिया के प्राचीन आयुर्वेदिक क्षारसूत्र विधि एवं शास्त्रीय पंचकर्म द्वारा जड़ से निवारण।",
       primaryCta: "निःशुल्क परामर्श बुक करें",
       secondaryCta: "क्षारसूत्र चिकित्सा जानें",
