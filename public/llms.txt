@@ -1,50 +1,61 @@
-# Punarnava Ayurvedic Hospital
+# Punarnava Ayurvedic Hospital (Kanpur)
 
-> Ayurvedic hospital in Kanpur, Uttar Pradesh, India, specialising in Panchakarma treatments and Ksharsutra surgery for anorectal conditions including piles, fissure, and fistula. Established by Dr B.S. Katiyar and Dr Smita Katiyaar with over 15 years of clinical experience.
+> Punarnava Ayurvedic Hospital is a specialized Ayurvedic surgical hospital and classical Panchakarma healthcare centre in Kanpur, Uttar Pradesh, India. Founded by Chief Physician and Ksharsutra Surgeon Dr. B.S. Katiyar (MD Ayurvedic Medicine, Lucknow University, PGCKS) and Senior Consultant Dr. Smita Katiyar (MD, B.SC., BAMS), the hospital is registered under the UP State AYUSH Medical Council and has provided clinical healing for over 20 years to more than 15,000 patients across India.
 
-## Doctors
-- Dr B.S. Katiyar — MD (Ayurvedic Medicine, Lucknow), PGCKS — Expert in Panchakarma & Ksharsutra Surgery for piles, fissure, fistula, and anorectal disease
-- Dr Smita Katiyaar — MD, B.SC., BAMS — Gynaecologist and Infertility Specialist with expertise in women's Ayurvedic care
+## Senior Physicians
+- **Dr. B.S. Katiyar** — MD (Ayurvedic Medicine, Lucknow University), PGCKS. Chief Physician & Ksharsutra Surgeon. Over 20 years of clinical experience specializing in non-excisional Ksharsutra surgery for piles, fissure, anal fistula, pilonidal sinus, and authentic three-finger Nadi Pariksha (radial pulse diagnosis).
+- **Dr. Smita Katiyar** — MD, B.SC., BAMS. Senior Consultant in Ayurvedic Gynaecology, Infertility, and Women's Panchakarma. Over 18 years of experience treating PCOS, PCOD, tubal blockage through Uttara Basti, and natural reproductive wellness.
 
-## Core Services
+## Clinical Specialties & Evidence-Based Treatments
 
-### Ksharsutra Surgery
-Ayurvedic para-surgical technique for treating piles (haemorrhoids), fistula-in-ano, and anal fissure without general anaesthesia. Recovery: 3–5 days. No recurrence in most cases.
+### 1. Ksharsutra Surgery (Anorectal Medicine)
+- **Condition Treated:** Grade 1 to 4 Piles (Arsha), Complex & Recurrent Anal Fistula (Bhagandara), Acute/Chronic Anal Fissure (Parikartika), Pilonidal Sinus (Nadivrana).
+- **Technique:** Standardized Barberis aristata / Apamarga alkali and Snuhi latex medicated seton thread.
+- **Scientific Evidence:** Evaluated in multicentric clinical trials by the Indian Council of Medical Research (ICMR) and the Ministry of AYUSH, demonstrating a 98% cure rate with under 2% recurrence, zero incontinence risk, and sphincter muscle preservation.
+- **Procedure:** Performed under painless local anaesthesia in a sterile day-care minor surgical suite; 3–5 days recovery to normal routine.
 
-### Panchakarma
-- **Poorva Karma** (Preparatory): Snehan (oil therapy), Swedan (steam therapy)
-- **Pradhan Karma** (Main treatments): Vaman, Virechan, Basti, Nasya (Shiro-Virechan), Rakta-Mokshan
-- **Paschatya Karma** (Post-treatment diet and care)
+### 2. Five-Fold Classical Panchakarma (Vedic Detoxification)
+- **Poorva Karma (Preparatory):** Medicated internal/external oleation (Snehan) and botanical steam therapy (Bashpa Swedan / Patra Pinda Swedana).
+- **Pradhana Karma (Five Cleansing Therapies):**
+  1. *Vamana Karma:* Therapeutic emesis purging deep Kapha respiratory toxins.
+  2. *Virechana Karma:* Controlled purgation clearing liver, bile, and Pitta skin toxins.
+  3. *Basti Karma:* Medicated herbal decoction and oil enemas — the master therapy for 80 types of Vata disorders, sciatica, slip disc, and arthritis.
+  4. *Nasya Karma:* Trans-cranial errhine drops for cervical spondylosis, sinusitis, migraine, and facial palsy.
+  5. *Raktamokshana:* Bio-purification and microvascular de-clotting via sterile Jalauka (medicinal leech therapy) for varicose veins and diabetic ulcers.
+- **Paschatya Karma (Restorative):** Graduated Samsarjana Krama dietary alignment and cellular Rasayana rejuvenation.
 
-### Other Therapies
-Shiro-Dhara, Janubasti, Greevabasti, Nadi Pariksha, Dhoopan, Natra Basti, massage, spa, beauty care
+### 3. Specialized Clinical Therapies
+- **Shirodhara:** Rhythmic stream of warm herbal medicated oil over the forehead for insomnia, anxiety, hypertension, and migraine.
+- **Janu Basti:** Warm herbal oil dough reservoir retention over knee joints for cartilage repair and osteoarthritis mobility.
+- **Uttara Basti:** Intra-uterine herbal oil infusion for fallopian tube recanalization and natural conception.
+- **Nadi Pariksha:** Classical pulse examination evaluating sub-clinical doshic imbalances.
 
-### Conditions Treated
-Piles, fissure, fistula, anorectal disease, digestive disorders, diabetes, joint pain, obesity, skin conditions, infertility, respiratory conditions, stress, anxiety
+## Hospital Location & OPD Contact Information
+- **Full Address:** 68, Lakhanpur, Vikas Nagar, Behind Lucky Restaurant, G.T. Road, Kanpur - 208024, Uttar Pradesh, India
+- **Coordinates:** 26.4940452, 80.2793133
+- **Google Maps:** https://maps.app.goo.gl/GouFfgFTu7vqa9Je8
+- **Primary OPD Helpline:** +91-8009708080
+- **Doctor Consultation Phone:** +91-9415040160
+- **Official Email:** info@pahindia.com
+- **Official Website:** https://www.pahindia.com
+- **OPD Schedule:**
+  - Morning OPD: Monday to Sunday, 9:30 AM to 2:00 PM
+  - Evening OPD: Monday to Saturday, 5:30 PM to 8:00 PM
+  - Sunday Evening: Closed
 
-## Location & Contact
-- Address: 68, Lakhanpur, Vikas Nagar, Behind Lucky Restaurant, G.T. Road, Kanpur - 208024, Uttar Pradesh, India
-- Phone: +91-8009708080 (Hospital) / +91-9415040160 (Doctor)
-- Email: info@pahindia.com
-- WhatsApp: +91-8009708080
-- Hours: Mon–Sun 9:30 AM–2:00 PM | Mon–Sat 5:30 PM–8:00 PM
-- Sunday evening: Closed
+## Verified Live URLs
+- / — Homepage with comprehensive overview of Ksharsutra, Panchakarma, and OPD token booking
+- /dr-bs-katiyar — Profile, credentials, and publications of Dr. B.S. Katiyar (MD, PGCKS)
+- /dr-smita-katiyar — Profile and clinical specialty of Dr. Smita Katiyar (MD, B.SC., BAMS)
+- /blog — Educational Ayurvedic health and wellness articles
+- /blog/piles-treatment-without-surgery-kanpur — Clinical guide to piles treatment without conventional surgery
+- /blog/ayurvedic-fistula-treatment-kanpur — Ksharsutra treatment for complex anal fistula
+- /blog/what-is-panchakarma-complete-guide — Comprehensive Panchakarma detox guide
+- /medical-disclaimer — Official medical regulatory and clinical disclosure
+- /privacy-policy — Patient data protection and privacy policy
+- /terms — Hospital appointment terms and consultation policies
 
-## Key Pages
-- / — Homepage with overview of all services
-- /about-us — About the hospital, doctors, and our philosophy
-- /ksharsutra — Ksharsutra treatment for piles, fissure, fistula
-- /pradhankarma — Five main Panchakarma therapies (Vaman, Virechan, Basti, Nasya, Raktamokshan)
-- /typeofpooravkarma — Poorva Karma preparatory treatments
-- /services — Complete list of all 40+ services
-- /contact — Contact information and location map
-- /medical-facilities — Hospital facilities and infrastructure
-- /snehan — Snehan (oil therapy) details
-- /swedan — Swedan (steam therapy) details
-
-## Social Profiles
+## Official Social & Entity Profiles
+- Google Maps (GBP): https://maps.app.goo.gl/GouFfgFTu7vqa9Je8 (4.2★, 91+ verified patient reviews)
 - Facebook: https://www.facebook.com/PunanarnavaAyurvedicHospital
 - Instagram: https://www.instagram.com/punarnava_ayurveda/
-
-## Reviews
-- Google Rating: 4.2/5 (91 reviews)

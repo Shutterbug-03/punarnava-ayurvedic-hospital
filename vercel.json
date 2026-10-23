@@ -1,0 +1,175 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/about-us",
+      "destination": "/#about",
+      "permanent": true
+    },
+    {
+      "source": "/about-us.html",
+      "destination": "/#about",
+      "permanent": true
+    },
+    {
+      "source": "/ksharsutra",
+      "destination": "/#ksharsutra",
+      "permanent": true
+    },
+    {
+      "source": "/ksharsutra.html",
+      "destination": "/#ksharsutra",
+      "permanent": true
+    },
+    {
+      "source": "/services",
+      "destination": "/#therapies",
+      "permanent": true
+    },
+    {
+      "source": "/services.html",
+      "destination": "/#therapies",
+      "permanent": true
+    },
+    {
+      "source": "/contact",
+      "destination": "/#footer",
+      "permanent": true
+    },
+    {
+      "source": "/contact.html",
+      "destination": "/#footer",
+      "permanent": true
+    },
+    {
+      "source": "/pradhankarma",
+      "destination": "/#panchakarma",
+      "permanent": true
+    },
+    {
+      "source": "/pradhankarma.html",
+      "destination": "/#panchakarma",
+      "permanent": true
+    },
+    {
+      "source": "/typeofpooravkarma",
+      "destination": "/#panchakarma",
+      "permanent": true
+    },
+    {
+      "source": "/typeofpooravkarma.html",
+      "destination": "/#panchakarma",
+      "permanent": true
+    },
+    {
+      "source": "/pooravkarma",
+      "destination": "/#panchakarma",
+      "permanent": true
+    },
+    {
+      "source": "/pooravkarma.html",
+      "destination": "/#panchakarma",
+      "permanent": true
+    },
+    {
+      "source": "/paschatyakarma",
+      "destination": "/#panchakarma",
+      "permanent": true
+    },
+    {
+      "source": "/paschatyakarma.html",
+      "destination": "/#panchakarma",
+      "permanent": true
+    },
+    {
+      "source": "/snehan",
+      "destination": "/#therapies",
+      "permanent": true
+    },
+    {
+      "source": "/snehan.html",
+      "destination": "/#therapies",
+      "permanent": true
+    },
+    {
+      "source": "/swedan",
+      "destination": "/#therapies",
+      "permanent": true
+    },
+    {
+      "source": "/swedan.html",
+      "destination": "/#therapies",
+      "permanent": true
+    },
+    {
+      "source": "/medical-facilities",
+      "destination": "/#facilities",
+      "permanent": true
+    },
+    {
+      "source": "/medical-facilities.html",
+      "destination": "/#facilities",
+      "permanent": true
+    },
+    {
+      "source": "/ksharsutra-list",
+      "destination": "/#ksharsutra",
+      "permanent": true
+    },
+    {
+      "source": "/ksharsutra-list.html",
+      "destination": "/#ksharsutra",
+      "permanent": true
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/blog",
+      "destination": "/blog/index.html"
+    },
+    {
+      "source": "/blog/:slug",
+      "destination": "/blog/:slug.html"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "X-Content-Type-Options", "value": "nosniff" },
+        { "key": "X-Frame-Options", "value": "SAMEORIGIN" },
+        { "key": "X-XSS-Protection", "value": "1; mode=block" },
+        { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" }
+      ]
+    },
+    {
+      "source": "/img/(.*)",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
+      ]
+    },
+    {
+      "source": "/sitemap.xml",
+      "headers": [
+        { "key": "Content-Type", "value": "application/xml" },
+        { "key": "Cache-Control", "value": "public, max-age=86400, stale-while-revalidate=86400" }
+      ]
+    },
+    {
+      "source": "/robots.txt",
+      "headers": [
+        { "key": "Content-Type", "value": "text/plain; charset=utf-8" },
+        { "key": "Cache-Control", "value": "public, max-age=86400, stale-while-revalidate=86400" }
+      ]
+    },
+    {
+      "source": "/llms.txt",
+      "headers": [
+        { "key": "Content-Type", "value": "text/plain; charset=utf-8" },
+        { "key": "Cache-Control", "value": "public, max-age=86400, stale-while-revalidate=86400" }
+      ]
+    }
+  ]
+}

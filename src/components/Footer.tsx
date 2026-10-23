@@ -93,6 +93,28 @@ export default function Footer() {
                   {isHindi ? "स्त्री रोग, पीसीओडी एवं बांझपन क्लिनिक" : "Ayurvedic Infertility & PCOS Clinic"}
                 </a>
               </li>
+              <li className="pt-2 border-t border-white/10 mt-2 font-semibold text-[#E8BC6E]">
+                {isHindi ? "वरिष्ठ चिकित्सक व विशेषज्ञ" : "Senior Consultants & Profiles"}
+              </li>
+              <li>
+                <a href="/dr-bs-katiyar" className="hover:text-[#C59138] transition-colors flex items-center gap-1.5">
+                  <span>Dr. B.S. Katiyar (MD, PGCKS)</span>
+                </a>
+              </li>
+              <li>
+                <a href="/dr-smita-katiyar" className="hover:text-[#C59138] transition-colors flex items-center gap-1.5">
+                  <span>Dr. Smita Katiyar (MD, BAMS)</span>
+                </a>
+              </li>
+              <li className="pt-2 border-t border-white/10 mt-2 font-semibold text-[#E8BC6E]">
+                {isHindi ? "रोग निवारण ब्लॉग व शोध" : "Ayurvedic Knowledge Center"}
+              </li>
+              <li>
+                <a href="/blog" className="hover:text-[#C59138] transition-colors flex items-center gap-1.5">
+                  <span>{isHindi ? "क्लीनिकल स्वास्थ्य ब्लॉग" : "Clinical Articles & Case Insights"}</span>
+                  <ExternalLink className="w-3 h-3 text-[#C59138]" />
+                </a>
+              </li>
             </ul>
           </div>
 
@@ -183,6 +205,33 @@ export default function Footer() {
               PUNARNAVA
             </span>
           </div>
+        </div>
+
+        {/* Legal & Regulatory Trust Links */}
+        <div className="pt-6 pb-2 border-t border-white/5 flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-xs text-[#FAF7F2]/60">
+          <a href="/privacy-policy" className="hover:text-[#C59138] transition-colors">
+            {isHindi ? "गोपनीयता नीति (Privacy Policy)" : "Privacy Policy"}
+          </a>
+          <span className="text-white/20">·</span>
+          <a href="/terms" className="hover:text-[#C59138] transition-colors">
+            {isHindi ? "नियम व शर्तें (Terms & Conditions)" : "Terms of Service"}
+          </a>
+          <span className="text-white/20">·</span>
+          <a href="/medical-disclaimer" className="hover:text-[#C59138] transition-colors">
+            {isHindi ? "चिकित्सीय अस्वीकरण (Medical Disclaimer)" : "Medical Disclaimer"}
+          </a>
+          <span className="text-white/20">·</span>
+          <a href="/dr-bs-katiyar" className="hover:text-[#C59138] transition-colors">
+            Dr. B.S. Katiyar OPD
+          </a>
+          <span className="text-white/20">·</span>
+          <a href="/dr-smita-katiyar" className="hover:text-[#C59138] transition-colors">
+            Dr. Smita Katiyar OPD
+          </a>
+          <span className="text-white/20">·</span>
+          <a href="/sitemap.xml" className="hover:text-[#C59138] transition-colors">
+            XML Sitemap
+          </a>
         </div>
 
         {/* Bottom Bar: Copyright & Back to Top */}

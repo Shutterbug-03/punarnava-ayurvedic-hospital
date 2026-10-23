@@ -21,6 +21,7 @@ import {
   MessageSquareQuote,
   Building2,
   ArrowRight,
+  BookOpen,
 } from 'lucide-react';
 
 interface HeaderProps {
@@ -196,6 +197,16 @@ export default function Header({ onOpenConsultation }: HeaderProps) {
       icon: Building2,
       iconColor: 'text-[#285A46]',
       iconBg: 'bg-[#285A46]/10',
+    },
+    {
+      title: isHindi ? 'आयुर्वेदिक शोध एवं ब्लॉग' : 'Clinical Blog & Research',
+      desc: isHindi
+        ? 'बवासीर, भगंदर व पंचकर्म पर प्रामाणिक आलेख'
+        : 'Evidence-backed clinical articles and patient guides',
+      href: '/blog',
+      icon: BookOpen,
+      iconColor: 'text-[#C59138]',
+      iconBg: 'bg-[#C59138]/10',
     },
   ];
 

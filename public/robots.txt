@@ -1,25 +1,42 @@
 User-agent: *
 Allow: /
 
+# OpenAI Crawlers & Search Assistants
 User-agent: GPTBot
 Allow: /
-
-User-agent: ClaudeBot
+User-agent: OAI-SearchBot
+Allow: /
+User-agent: ChatGPT-User
 Allow: /
 
+# Anthropic Claude Crawlers & Search Assistants
+User-agent: ClaudeBot
+Allow: /
+User-agent: Claude-SearchBot
+Allow: /
+User-agent: Claude-User
+Allow: /
 User-agent: anthropic-ai
 Allow: /
 
+# Perplexity AI Search Crawler
 User-agent: PerplexityBot
 Allow: /
 
+# Google Search & Gemini Extended
+User-agent: Googlebot
+Allow: /
 User-agent: Google-Extended
 Allow: /
 
+# Apple Intelligence
+User-agent: Applebot-Extended
+Allow: /
+
+# Common Crawl & ByteDance
 User-agent: CCBot
 Allow: /
-
-User-agent: Googlebot
+User-agent: Bytespider
 Allow: /
 
-Sitemap: https://pahindia.com/sitemap.xml
+Sitemap: https://www.pahindia.com/sitemap.xml
