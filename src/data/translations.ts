@@ -39,7 +39,7 @@ export const translations = {
       { value: "20+", label: "Years Clinical Practice", subtext: "Established in Kanpur" },
       { value: "15,000+", label: "Patients Treated", subtext: "Across UP & North India" },
       { value: "98%+", label: "Success Rate", subtext: "Minimal recurrence in piles & fistula" },
-      { value: "0", label: "General Anaesthesia", subtext: "Done safely under local anaesthesia" },
+      { value: "35+", label: "Years Hospital Heritage", subtext: "Trusted Ayurvedic hospital in Kanpur" },
     ],
     ksharsutraSection: {
       badge: "Signature Ayurvedic Para-Surgery",
@@ -441,7 +441,7 @@ export const translations = {
       { value: "20+", label: "वर्षों का चिकित्सकीय अनुभव", subtext: "कानपुर में स्थापित" },
       { value: "15,000+", label: "संतुष्ट मरीज", subtext: "संपूर्ण उत्तर प्रदेश एवं भारत भर से" },
       { value: "98%+", label: "सफलता दर", subtext: "रोग की पुनरावृत्ति नगण्य" },
-      { value: "0", label: "जनरल एनेस्थीसिया", subtext: "लोकल एनेस्थीसिया में सुरक्षित विधि" },
+      { value: "35+", label: "वर्षों की समृद्ध विरासत", subtext: "कानपुर में विश्वसनीय आयुर्वेदिक चिकित्सालय" },
     ],
     ksharsutraSection: {
       badge: "आयुर्वेदिक पैरा-सर्जरी",

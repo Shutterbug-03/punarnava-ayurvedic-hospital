@@ -2,13 +2,13 @@
 
 import React from 'react';
 import { useLanguage } from '../context/LanguageContext';
-import { Award, Users, ShieldCheck, HeartPulse, Sparkle, CheckCircle } from 'lucide-react';
+import { Award, Users, ShieldCheck, HeartPulse, Sparkle, CheckCircle, Building2 } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 export default function TrustBar() {
   const { t, isHindi } = useLanguage();
 
-  const statIcons = [Award, Users, ShieldCheck, HeartPulse];
+  const statIcons = [Award, Users, ShieldCheck, Building2];
 
   const assuranceBadges = [
     { en: 'Ministry of AYUSH Endorsed', hi: 'आयुष मंत्रालय द्वारा प्रमाणित' },
@@ -50,7 +50,7 @@ export default function TrustBar() {
                     <Icon className="w-5 h-5 sm:w-6 sm:h-6 text-[#C59138]" />
                   </div>
                   <span className="text-[10px] font-bold uppercase tracking-wider text-[#C59138]/80 bg-[#C59138]/10 px-2 py-0.5 rounded-full border border-[#C59138]/20">
-                    {idx === 0 ? 'Heritage' : idx === 1 ? 'Outcomes' : idx === 2 ? 'Clinical' : 'Safety'}
+                    {idx === 0 ? 'Experience' : idx === 1 ? 'Outcomes' : idx === 2 ? 'Clinical' : 'Heritage'}
                   </span>
                 </div>
 
