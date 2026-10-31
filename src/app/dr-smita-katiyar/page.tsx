@@ -17,14 +17,14 @@ import {
 } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Dr. Smita Katiyar — Ayurvedic Gynaecologist & Infertility Specialist | Punarnava Hospital Kanpur',
+  title: 'Dr. Smita Katiyar — Ayurvedic Gynaecologist & Infertility Specialist | Punarnava Ayurvedic Hospital Kanpur',
   description:
     'Dr. Smita Katiyar (MD, B.SC., BAMS) is Kanpur’s celebrated Ayurvedic gynaecologist specializing in natural infertility treatment, PCOS/PCOD reversal, and Uttara Basti therapies.',
   alternates: {
     canonical: 'https://www.pahindia.com/dr-smita-katiyar',
   },
   openGraph: {
-    title: 'Dr. Smita Katiyar — Ayurvedic Gynaecology & Infertility Specialist | Punarnava Hospital',
+    title: 'Dr. Smita Katiyar — Ayurvedic Gynaecology & Infertility Specialist | Punarnava Ayurvedic Hospital',
     description:
       'MD, B.SC., BAMS with 18+ years dedicated clinical practice in natural women’s health, Ayurvedic fertility, and hormonal balance in Kanpur.',
     url: 'https://www.pahindia.com/dr-smita-katiyar',
@@ -50,7 +50,7 @@ const doctorSchema = {
     'Reproductive Medicine',
     'Panchakarma',
   ],
-  telephone: '+91-8009708080',
+  telephone: '+91-8090345555',
   worksFor: {
     '@type': 'MedicalClinic',
     name: 'Punarnava Ayurvedic Hospital',
@@ -121,15 +121,16 @@ export default function DrSmitaKatiyarPage() {
             className="inline-flex items-center gap-2 text-xs sm:text-sm font-bold text-[#0D3325] hover:text-[#C59138] transition-colors"
           >
             <ArrowLeft className="w-4 h-4" />
-            <span>Return to Punarnava Hospital Home</span>
+            <span>Return to Punarnava Ayurvedic Hospital Home</span>
           </Link>
           <div className="flex items-center gap-3">
             <a
-              href="tel:+918009708080"
+              href="tel:+918090345555"
               className="text-xs font-bold text-[#0D3325] hidden sm:inline-flex items-center gap-1.5"
+              title="Call: +91-8090345555 / +91-8009708080"
             >
               <Phone className="w-3.5 h-3.5 text-[#C59138]" />
-              <span>+91-8009708080</span>
+              <span>+91-8090345555</span>
             </a>
             <Link
               href="/#contact"
@@ -267,21 +268,22 @@ export default function DrSmitaKatiyarPage() {
                       Consult Dr. Smita Katiyar
                     </span>
                     <h3 className="text-xl font-serif font-bold text-[#FAF7F2]">
-                      Women’s Health OPD Timings
+                      Dr. Smita Katiyar’s Consultation Hours at Punarnava Ayurvedic Hospital
                     </h3>
                   </div>
                   <Clock className="w-6 h-6 text-[#C59138]" />
                 </div>
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-xs text-white/90">
-                  <div className="p-3.5 bg-white/10 rounded-2xl border border-white/10">
-                    <span className="font-bold text-[#E8BC6E] block mb-1">Morning OPD Consultation:</span>
-                    <span>Monday to Sunday: 9:30 AM – 2:00 PM</span>
+                  <div className="p-3.5 bg-white/10 rounded-2xl border border-white/10 space-y-1">
+                    <span className="font-bold text-[#E8BC6E] block">Doctor Consultation Hours:</span>
+                    <div>Mon – Sat: 12:00 PM – 5:00 PM & 6:00 PM – 8:00 PM</div>
+                    <div>Sunday: 11:00 AM – 2:00 PM (Evening Closed)</div>
                   </div>
-                  <div className="p-3.5 bg-white/10 rounded-2xl border border-white/10">
-                    <span className="font-bold text-[#E8BC6E] block mb-1">Evening OPD Consultation:</span>
-                    <span>Monday to Saturday: 5:30 PM – 8:00 PM</span>
-                    <span className="block text-[11px] text-white/60 mt-0.5">(Sunday evening closed)</span>
+                  <div className="p-3.5 bg-white/10 rounded-2xl border border-white/10 space-y-1">
+                    <span className="font-bold text-[#E8BC6E] block">Hospital Timings:</span>
+                    <div>Monday to Saturday: 9:00 AM – 8:00 PM</div>
+                    <div>Sunday: 9:00 AM – 2:00 PM (Evening Closed)</div>
                   </div>
                 </div>
 
@@ -292,14 +294,15 @@ export default function DrSmitaKatiyarPage() {
 
                 <div className="flex flex-col sm:flex-row gap-3 pt-2">
                   <a
-                    href="tel:+918009708080"
+                    href="tel:+918090345555"
                     className="flex-1 py-3 rounded-full bg-[#C59138] hover:bg-[#d6a249] text-[#092119] font-bold text-xs flex items-center justify-center gap-2 transition-all shadow-md"
+                    title="Call: +91-8090345555 / +91-8009708080"
                   >
                     <Phone className="w-4 h-4" />
-                    <span>Call OPD: +91-8009708080</span>
+                    <span>Call: +91-8090345555</span>
                   </a>
                   <a
-                    href="https://wa.me/918009708080?text=Hello%20Dr.%20Smita%20Katiyar%2C%20I%20would%20like%20to%20consult%20regarding%20women%20health%20or%20infertility"
+                    href="https://wa.me/918090345555?text=Hello%20Dr.%20Smita%20Katiyar%2C%20I%20would%20like%20to%20consult%20regarding%20women%20health%20or%20infertility%20at%20Punarnava%20Ayurvedic%20Hospital"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="py-3 px-6 rounded-full bg-[#25D366] hover:bg-[#20ba59] text-white font-bold text-xs flex items-center justify-center gap-2 transition-all shadow-md"

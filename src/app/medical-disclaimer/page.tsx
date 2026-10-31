@@ -50,7 +50,7 @@ export default function MedicalDisclaimerPage() {
 
           <h2 className="text-lg font-serif font-bold text-[#0D3325]">4. Evidence-Based Ksharsutra Science</h2>
           <p>
-            Ksharsutra therapy references on this website refer to classical Ayurvedic surgical principles as evaluated in extensive multicentric clinical trials by the Indian Council of Medical Research (ICMR) and the Ministry of AYUSH, Government of India. At Punarnava Hospital, all surgical and purificatory procedures are performed strictly by formally qualified physicians (MD, PGCKS).
+            Ksharsutra therapy references on this website refer to classical Ayurvedic surgical principles as evaluated in extensive multicentric clinical trials by the Indian Council of Medical Research (ICMR) and the Ministry of AYUSH, Government of India. At Punarnava Ayurvedic Hospital, all surgical and purificatory procedures are performed strictly by formally qualified physicians (M.D. (Ayurvedic Medicine) Lko, P.G. Diploma in Ksharsutra).
           </p>
 
           <h2 className="text-lg font-serif font-bold text-[#0D3325]">5. Medical Emergencies</h2>

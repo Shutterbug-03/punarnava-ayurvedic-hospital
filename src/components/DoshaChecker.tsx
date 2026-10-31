@@ -157,11 +157,11 @@ export default function DoshaChecker({ onOpenConsultation }: DoshaCheckerProps) 
                       onClick={() => onOpenConsultation(currentResult.therapy)}
                       className="w-full sm:w-auto px-6 py-3 rounded-full bg-[#C59138] hover:bg-[#E8BC6E] text-[#092119] text-xs font-bold transition-all shadow-md flex items-center justify-center gap-2 cursor-pointer"
                     >
-                      <span>{isHindi ? 'इस चिकित्सा हेतु निःशुल्क परामर्श लें' : 'Book Free Consultation'}</span>
+                      <span>{isHindi ? 'इस चिकित्सा हेतु टोकन बुक करें' : 'Book OPD Token'}</span>
                       <ArrowRight className="w-3.5 h-3.5" />
                     </button>
                     <span className="text-[11px] text-white/60 text-center sm:text-left">
-                      {isHindi ? 'प्रथम ओपीडी परामर्श निःशुल्क' : 'No registration fee for initial visit'}
+                      {isHindi ? 'ऑनलाइन टोकन बुकिंग निःशुल्क • परामर्श शुल्क अस्पताल में देय' : 'Free online token booking • Consultation charges apply at clinic'}
                     </span>
                   </div>
                 </div>

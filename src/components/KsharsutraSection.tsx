@@ -12,7 +12,7 @@ interface KsharsutraSectionProps {
 
 export default function KsharsutraSection({ onOpenConsultation }: KsharsutraSectionProps) {
   const { t, isHindi } = useLanguage();
-  const [activeTab, setActiveTab] = useState<'all' | 'piles' | 'fistula' | 'fissure'>('all');
+  const [activeTab, setActiveTab] = useState<'all' | 'piles' | 'fistula' | 'fissure' | 'gastro'>('all');
 
   const conditionCards = [
     {
@@ -23,6 +23,20 @@ export default function KsharsutraSection({ onOpenConsultation }: KsharsutraSect
         ? 'आंतरिक एवं बाह्य मस्सों का बिना चीरा लगाए सूखकर स्वतः गिर जाना। शून्य रक्तस्त्राव एवं तुरंत राहत।'
         : 'Gradual aseptic necrosis and spontaneous shedding of hemorrhoidal mass without scalpel incisions or heavy bleeding.',
       image: '/img/piles.jpg',
+      flowchart: [
+        {
+          dotColor: 'bg-[#C59138]',
+          text: isHindi ? '1. मस्से के मूल का रक्तप्रवाह अवरोध' : '1. Vascular base ligation',
+        },
+        {
+          dotColor: 'bg-[#E8BC6E]',
+          text: isHindi ? '2. क्षार द्वारा क्रमिक रोगाणुहीन सुखावट' : '2. Enzymatic tissue necrosis',
+        },
+        {
+          dotColor: 'bg-[#1fc27a]',
+          text: isHindi ? '3. 5-7 दिन में स्वतः पतन व मुक्ति' : '3. Spontaneous shedding (5-7d)',
+        },
+      ],
       points: isHindi
         ? ['बिना चीरफाड़ मस्सों का शमन', 'उसी दिन सामान्य रूप से चलना-फिरना', 'लोकल एनेस्थीसिया में सुरक्षित']
         : ['Natural shedding without open wounds', 'Walk home same day (Day-care)', 'Safe under local anaesthesia'],
@@ -36,6 +50,20 @@ export default function KsharsutraSection({ onOpenConsultation }: KsharsutraSect
         ? 'जटिल एवं बार-बार होने वाले भगंदर के पूरे मार्ग का क्रमिक छेदन और प्राकृतिक रोपण। रिकरेंस 2% से भी कम।'
         : 'Chemical cutting and simultaneous granulation tissue healing of high and complex fistulous tracts. <2% recurrence.',
       image: '/img/fistula.jpg',
+      flowchart: [
+        {
+          dotColor: 'bg-[#C59138]',
+          text: isHindi ? '1. संपूर्ण भगंदर ट्रैक का सूत्रण' : '1. Full tract threading',
+        },
+        {
+          dotColor: 'bg-[#E8BC6E]',
+          text: isHindi ? '2. आंतरिक मवाद का क्रमिक निकास' : '2. Chemical tract drainage',
+        },
+        {
+          dotColor: 'bg-[#1fc27a]',
+          text: isHindi ? '3. नीचे से स्वस्थ कोशिकाओं का निर्माण' : '3. Granulation (<2% recurrence)',
+        },
+      ],
       points: isHindi
         ? ['गुदा स्फिंक्टर मांसपेशियों को 0% क्षति', 'फेल हुई सर्जरी के बाद भी सफल', 'जटिल ट्रैक का संपूर्ण निष्कासन']
         : ['100% Sphincter preservation (no leakage)', 'Proven effective after failed surgeries', 'Complete deep tract granulation'],
@@ -49,10 +77,51 @@ export default function KsharsutraSection({ onOpenConsultation }: KsharsutraSect
         ? 'शौच के समय होने वाले असहनीय दर्द व जलन से तुरंत मुक्ति। गुदा द्वार की ऐंठन समाप्त करने वाला प्राकृतिक उपचार।'
         : 'Immediate relief from agonizing burning pain and spasm. Promotes rapid mucosal healing without sphincterotomy.',
       image: '/img/fissure.jpg',
+      flowchart: [
+        {
+          dotColor: 'bg-[#C59138]',
+          text: isHindi ? '1. स्फिंक्टर ऐंठन का शमन' : '1. Sphincter spasm relief',
+        },
+        {
+          dotColor: 'bg-[#E8BC6E]',
+          text: isHindi ? '2. औषधीय तेल से घाव रोपण' : '2. Botanical ulcer healing',
+        },
+        {
+          dotColor: 'bg-[#1fc27a]',
+          text: isHindi ? '3. 48 घंटे में दर्दमुक्त शौच' : '3. Painless bowel movement',
+        },
+      ],
       points: isHindi
         ? ['शौच के समय जलन व दर्द का अंत', 'प्राकृतिक औषधीय तेलों से रोपण', 'स्फिंक्टरोटॉमी सर्जरी की जरूरत नहीं']
         : ['Instant spasm & burning pain relief', 'Herbal mucosal healing & lubrication', 'Avoids conventional sphincterotomy cuts'],
       badge: 'Rapid Relief',
+    },
+    {
+      id: 'gastro',
+      title: isHindi ? 'गैस्ट्रो एवं लिवर रोग (Gastro & Liver)' : 'Gastrointestinal & Hepatobiliary Care',
+      tag: isHindi ? 'पाचन व यकृत सुरक्षा' : 'Gastro & Hepatobiliary',
+      desc: isHindi
+        ? 'फैटी लिवर, अम्लपित्त (क्रॉनिक एसिडिटी), आईबीएस, पुरानी कब्ज, गैस एवं पित्ताशय-यकृत विकारों का शास्त्रीय शोधन एवं यकृत-रक्षक औषधियों द्वारा स्थाई समाधान।'
+        : 'Holistic Ayurvedic therapy for Fatty Liver, Chronic Acidity (GERD), IBS, Sluggish Digestion, and Hepatobiliary Congestion through classical bio-cleansing.',
+      image: '/img/clinical/vamana-virechana-kashayam.jpg',
+      flowchart: [
+        {
+          dotColor: 'bg-[#C59138]',
+          text: isHindi ? '1. दीपन-पाचन द्वारा जठराग्नि प्रदीप्ति' : '1. Agni rekindling & enzyme balance',
+        },
+        {
+          dotColor: 'bg-[#E8BC6E]',
+          text: isHindi ? '2. यकृत शोधन एवं पित्त स्राव नियमन' : '2. Hepatic detox & bile flow regulation',
+        },
+        {
+          dotColor: 'bg-[#1fc27a]',
+          text: isHindi ? '3. आंतों की श्लेष्मा का प्राकृतिक पुनर्जीवन' : '3. Gut mucosal repair & microbiome health',
+        },
+      ],
+      points: isHindi
+        ? ['फैटी लिवर व लिवर एंजाइम (SGOT/SGPT) का सुधार', 'पुरानी एसिडिटी, गैस, कब्ज व आईबीएस से मुक्ति', 'विरेचन व शास्त्रीय यकृत-रक्षक औषधियां']
+        : ['Fatty liver reversal & liver enzyme (SGOT/SGPT) balance', 'Permanent relief from chronic GERD, gas, IBS & constipation', 'Classical Virechana detox & pure hepatoprotective herbs'],
+      badge: 'Root-Cause Care',
     },
   ];
 
@@ -103,10 +172,11 @@ export default function KsharsutraSection({ onOpenConsultation }: KsharsutraSect
           {/* Interactive Filter Pills */}
           <div className="flex flex-wrap items-center justify-center gap-2 mt-8">
             {[
-              { id: 'all', label: isHindi ? 'सभी विकार' : 'All Anorectal Care' },
+              { id: 'all', label: isHindi ? 'सभी चिकित्सा' : 'All Treatments' },
               { id: 'piles', label: isHindi ? 'बवासीर (Piles)' : 'Piles Care' },
               { id: 'fistula', label: isHindi ? 'भगंदर (Fistula)' : 'Fistula Care' },
               { id: 'fissure', label: isHindi ? 'फिशर (Fissure)' : 'Fissure Care' },
+              { id: 'gastro', label: isHindi ? 'गैस्ट्रो व लिवर (Gastro & Liver)' : 'Gastro & Liver' },
             ].map((tab) => (
               <button
                 key={tab.id}
@@ -268,8 +338,8 @@ export default function KsharsutraSection({ onOpenConsultation }: KsharsutraSect
           </div>
         </div>
 
-        {/* 4. Condition Procedural Flowcharts (Piles, Fistula, Fissure) */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8 mb-16">
+        {/* 4. Condition Procedural Flowcharts (Piles, Fistula, Fissure, Gastrointestinal & Hepatobiliary) */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
           {filteredCards.map((item, idx) => (
             <div
               key={idx}
@@ -277,56 +347,32 @@ export default function KsharsutraSection({ onOpenConsultation }: KsharsutraSect
             >
               <div>
                 {/* Clinical Flowchart Header Diagram */}
-                <div className="p-6 bg-gradient-to-br from-[#092119] via-[#0D3325] to-[#134533] text-white relative">
+                <div className="p-5 sm:p-6 bg-gradient-to-br from-[#092119] via-[#0D3325] to-[#134533] text-white relative">
                   <div className="flex items-center justify-between gap-2 mb-3">
-                    <span className="px-3 py-1 rounded-full text-xs font-semibold bg-white/10 text-white backdrop-blur-md border border-white/20">
+                    <span className="px-2.5 py-1 rounded-full text-[11px] font-semibold bg-white/10 text-white backdrop-blur-md border border-white/20">
                       {item.tag}
                     </span>
-                    <span className="px-2.5 py-1 rounded-full text-[10px] font-bold bg-[#C59138] text-[#092119]">
+                    <span className="px-2 py-0.5 rounded-full text-[10px] font-bold bg-[#C59138] text-[#092119]">
                       {item.badge}
                     </span>
                   </div>
 
-                  <h4 className="text-xl font-serif font-bold text-[#FAF7F2] mb-3">
+                  <h4 className="text-lg sm:text-xl font-serif font-bold text-[#FAF7F2] mb-3 leading-snug">
                     {item.title}
                   </h4>
 
                   {/* Visual 3-Stage Process Diagram in Card */}
                   <div className="bg-white/10 backdrop-blur-md rounded-xl p-3 border border-white/15 space-y-2">
                     <span className="text-[10px] font-bold uppercase tracking-wider text-[#C59138] block">
-                      {isHindi ? 'शल्य प्रक्रिया प्रवाह' : 'Action Mechanism Flowchart'}
+                      {isHindi ? 'शल्य एवं शोधन प्रक्रिया' : 'Action Mechanism Flowchart'}
                     </span>
                     <div className="space-y-1.5 text-[11px] text-[#FAF7F2]/90">
-                      <div className="flex items-center gap-2">
-                        <div className="w-1.5 h-1.5 rounded-full bg-[#C59138]"></div>
-                        <span>
-                          {idx === 0
-                            ? (isHindi ? '1. मस्से के मूल का रक्तप्रवाह अवरोध' : '1. Vascular base ligation')
-                            : idx === 1
-                            ? (isHindi ? '1. संपूर्ण भगंदर ट्रैक का सूत्रण' : '1. Full tract threading')
-                            : (isHindi ? '1. स्फिंक्टर ऐंठन का शमन' : '1. Sphincter spasm relief')}
-                        </span>
-                      </div>
-                      <div className="flex items-center gap-2">
-                        <div className="w-1.5 h-1.5 rounded-full bg-[#E8BC6E]"></div>
-                        <span>
-                          {idx === 0
-                            ? (isHindi ? '2. क्षार द्वारा क्रमिक रोगाणुहीन सुखावट' : '2. Enzymatic tissue necrosis')
-                            : idx === 1
-                            ? (isHindi ? '2. आंतरिक मवाद का क्रमिक निकास' : '2. Chemical tract drainage')
-                            : (isHindi ? '2. औषधीय तेल से घाव रोपण' : '2. Botanical ulcer healing')}
-                        </span>
-                      </div>
-                      <div className="flex items-center gap-2">
-                        <div className="w-1.5 h-1.5 rounded-full bg-[#1fc27a]"></div>
-                        <span>
-                          {idx === 0
-                            ? (isHindi ? '3. 5-7 दिन में स्वतः पतन व मुक्ति' : '3. Spontaneous shedding (5-7d)')
-                            : idx === 1
-                            ? (isHindi ? '3. नीचे से स्वस्थ कोशिकाओं का निर्माण' : '3. Granulation (<2% recurrence)')
-                            : (isHindi ? '3. 48 घंटे में दर्दमुक्त शौच' : '3. Painless bowel movement')}
-                        </span>
-                      </div>
+                      {item.flowchart.map((step, sIdx) => (
+                        <div key={sIdx} className="flex items-start gap-2">
+                          <div className={`w-1.5 h-1.5 rounded-full ${step.dotColor} shrink-0 mt-1`}></div>
+                          <span className="leading-tight">{step.text}</span>
+                        </div>
+                      ))}
                     </div>
                   </div>
                 </div>
@@ -456,7 +502,7 @@ export default function KsharsutraSection({ onOpenConsultation }: KsharsutraSect
                 {isHindi ? 'घबराएं नहीं:' : 'Facing severe pain or bleeding?'}
               </span>{' '}
               {isHindi
-                ? 'बिना चीरफाड़ के प्राकृतिक इलाज संभव है। आज ही निःशुल्क परामर्श लें।'
+                ? 'बिना चीरफाड़ के प्राकृतिक इलाज संभव है। आज ही ओपीडी टोकन बुक करें।'
                 : 'Get a clear second opinion from Dr. B.S. Katiyar before consenting to open surgery.'}
             </div>
 

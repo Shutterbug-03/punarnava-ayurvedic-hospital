@@ -40,7 +40,7 @@ export default function TermsPage() {
 
           <h2 className="text-lg font-serif font-bold text-[#0D3325]">2. OPD Appointments & Token Confirmation</h2>
           <p>
-            Submitting an online token request reserves your priority queue position for consultation at our Kanpur clinic. Walk-in consultations are also welcomed during standard OPD hours (Morning: 9:30 AM – 2:00 PM; Evening: 5:30 PM – 8:00 PM).
+            Submitting an online token request reserves your priority queue position for consultation at our Kanpur clinic. Walk-in consultations are also welcomed during standard Doctor Consultation hours (Monday to Saturday: 12:00 PM – 5:00 PM & 6:00 PM – 8:00 PM; Sunday: 11:00 AM – 2:00 PM) and Hospital Timings (Mon–Sat: 9:00 AM – 8:00 PM; Sun: 9:00 AM – 2:00 PM).
           </p>
 
           <h2 className="text-lg font-serif font-bold text-[#0D3325]">3. Intellectual Property</h2>

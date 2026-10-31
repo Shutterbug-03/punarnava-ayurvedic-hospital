@@ -18,16 +18,16 @@ import {
 } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Dr. B.S. Katiyar — Chief Ksharsutra Surgeon & Panchakarma Specialist | Punarnava Hospital Kanpur',
+  title: 'Dr. B.S. Katiyar — Chief Ksharsutra Surgeon & Panchakarma Specialist | Punarnava Ayurvedic Hospital Kanpur',
   description:
-    'Dr. B.S. Katiyar (MD Ayurvedic Medicine, Lucknow University, PGCKS) is Kanpur’s premier Ksharsutra surgeon with 20+ years experience treating piles, fissure, and complex fistula-in-ano.',
+    'Dr. B.S. Katiyar (M.D. (Ayurvedic Medicine) Lko, P.G. Diploma in Ksharsutra) is Kanpur’s premier Ksharsutra surgeon with 20+ years experience treating piles, fissure, and complex fistula-in-ano.',
   alternates: {
     canonical: 'https://www.pahindia.com/dr-bs-katiyar',
   },
   openGraph: {
     title: 'Dr. B.S. Katiyar — Chief Ksharsutra Surgeon | Punarnava Ayurvedic Hospital',
     description:
-      'MD Ayurvedic Medicine, PGCKS. Over 20 years of clinical excellence in Ksharsutra surgery and classical Panchakarma in Kanpur.',
+      'M.D. (Ayurvedic Medicine) Lko, P.G. Diploma in Ksharsutra. Over 20 years of clinical excellence in Ksharsutra surgery and classical Panchakarma in Kanpur.',
     url: 'https://www.pahindia.com/dr-bs-katiyar',
     siteName: 'Punarnava Ayurvedic Hospital',
     images: [{ url: '/img/doctors/dr-bs-katiyar-avatar.jpg', width: 800, height: 800, alt: 'Dr. B.S. Katiyar' }],
@@ -52,7 +52,7 @@ const doctorSchema = {
     'Anorectal Surgery',
   ],
   image: 'https://www.pahindia.com/img/doctors/dr-bs-katiyar-avatar.jpg',
-  telephone: '+91-9415040160',
+  telephone: '+91-8009708080',
   worksFor: {
     '@type': 'MedicalClinic',
     name: 'Punarnava Ayurvedic Hospital',
@@ -74,7 +74,7 @@ const doctorSchema = {
     {
       '@type': 'EducationalOccupationalCredential',
       credentialCategory: 'degree',
-      name: 'MD in Ayurvedic Medicine',
+      name: 'M.D. (Ayurvedic Medicine) Lko',
       recognizedBy: {
         '@type': 'Organization',
         name: 'Lucknow University',
@@ -83,7 +83,7 @@ const doctorSchema = {
     {
       '@type': 'EducationalOccupationalCredential',
       credentialCategory: 'postgraduate certificate',
-      name: 'PGCKS (Post Graduate Certificate in Ksharsutra Surgery)',
+      name: 'P.G. Diploma in Ksharsutra',
     },
   ],
   knowsAbout: [
@@ -126,15 +126,16 @@ export default function DrBsKatiyarPage() {
             className="inline-flex items-center gap-2 text-xs sm:text-sm font-bold text-[#0D3325] hover:text-[#C59138] transition-colors"
           >
             <ArrowLeft className="w-4 h-4" />
-            <span>Return to Punarnava Hospital Home</span>
+            <span>Return to Punarnava Ayurvedic Hospital Home</span>
           </Link>
           <div className="flex items-center gap-3">
             <a
-              href="tel:+919415040160"
+              href="tel:+918009708080"
               className="text-xs font-bold text-[#0D3325] hidden sm:inline-flex items-center gap-1.5"
+              title="Call: +91-8009708080 / +91-8090345555"
             >
               <Phone className="w-3.5 h-3.5 text-[#C59138]" />
-              <span>+91-9415040160</span>
+              <span>+91-8009708080</span>
             </a>
             <Link
               href="/#contact"
@@ -156,7 +157,7 @@ export default function DrBsKatiyarPage() {
               <div className="relative rounded-[32px] overflow-hidden border-4 border-white shadow-xl bg-white group">
                 <Image
                   src="/img/doctors/dr-bs-katiyar-avatar.jpg"
-                  alt="Dr. B.S. Katiyar (MD, PGCKS) - Chief Ksharsutra Surgeon"
+                  alt="Dr. B.S. Katiyar (M.D. (Ayurvedic Medicine) Lko, P.G. Diploma in Ksharsutra) - Chief Ksharsutra Surgeon"
                   width={600}
                   height={650}
                   className="w-full h-[400px] sm:h-[480px] object-cover object-top"
@@ -171,7 +172,7 @@ export default function DrBsKatiyarPage() {
                     Dr. B.S. Katiyar
                   </h1>
                   <p className="text-xs text-[#E8BC6E] font-medium mt-1">
-                    MD (Ayurvedic Medicine, Lucknow University) · PGCKS
+                    M.D. (Ayurvedic Medicine) Lko · P.G. Diploma in Ksharsutra
                   </p>
                 </div>
               </div>
@@ -188,7 +189,7 @@ export default function DrBsKatiyarPage() {
                 </div>
                 <div className="flex items-center justify-between pb-3 border-b border-[#E8E1D3]">
                   <span className="text-[#4B6358]">Primary Hospital:</span>
-                  <span className="font-bold text-[#0D3325]">Punarnava Hospital, Kanpur</span>
+                  <span className="font-bold text-[#0D3325]">Punarnava Ayurvedic Hospital, Kanpur</span>
                 </div>
                 <div className="flex items-center justify-between">
                   <span className="text-[#4B6358]">Consultation Languages:</span>
@@ -208,7 +209,7 @@ export default function DrBsKatiyarPage() {
                   Two Decades of Clinical Excellence in Ksharsutra Surgery & Chronic Disease Reversal
                 </h2>
                 <p className="text-base text-[#4B6358] leading-relaxed mt-4">
-                  Dr. B.S. Katiyar is the founder, chief physician, and lead Ksharsutra surgeon at <strong>Punarnava Ayurvedic Hospital</strong> in Kanpur, Uttar Pradesh. Holding an <strong>MD in Ayurvedic Medicine from prestigious Lucknow University</strong> along with specialized post-graduate training in Ksharsutra surgery (PGCKS), Dr. Katiyar is widely acknowledged as one of North India’s foremost authorities in non-excisional anorectal healing and classical Panchakarma.
+                  Dr. B.S. Katiyar is the founder, chief physician, and lead Ksharsutra surgeon at <strong>Punarnava Ayurvedic Hospital</strong> in Kanpur, Uttar Pradesh. Holding an <strong>M.D. (Ayurvedic Medicine) from Lucknow University (Lko)</strong> along with specialized <strong>P.G. Diploma in Ksharsutra</strong>, Dr. Katiyar is widely acknowledged as one of North India’s foremost authorities in non-excisional anorectal healing and classical Panchakarma.
                 </p>
               </div>
 
@@ -249,10 +250,10 @@ export default function DrBsKatiyarPage() {
                 </div>
                 <div className="space-y-3 text-xs sm:text-sm text-[#4B6358] leading-relaxed">
                   <p>
-                    • <strong>MD (Ayurvedic Medicine)</strong> — Lucknow University, Uttar Pradesh. Focused on clinical pharmacokinetics, therapeutic herbology, and constitutional diagnostics.
+                    • <strong>M.D. (Ayurvedic Medicine)</strong> — Lucknow University (Lko). Focused on clinical pharmacokinetics, therapeutic herbology, and constitutional diagnostics.
                   </p>
                   <p>
-                    • <strong>PGCKS (Post Graduate Certificate in Ksharsutra Surgery)</strong> — Rigorous surgical training adhering to standardized Indian Council of Medical Research (ICMR) methodologies for minimally invasive anorectal treatment.
+                    • <strong>P.G. Diploma in Ksharsutra</strong> — Rigorous surgical training adhering to standardized Indian Council of Medical Research (ICMR) methodologies for minimally invasive anorectal treatment.
                   </p>
                   <p>
                     • <strong>Clinical Leadership:</strong> Over 15,000+ satisfied patients treated without general anaesthesia, maintaining an exceptional documented 98% cure rate and under 2% recurrence rate.
@@ -268,21 +269,22 @@ export default function DrBsKatiyarPage() {
                       Direct Clinical Consultations
                     </span>
                     <h3 className="text-xl font-serif font-bold text-[#FAF7F2]">
-                      Dr. Katiyar’s OPD Hours at Punarnava Hospital
+                      Dr. Katiyar’s Consultation Hours at Punarnava Ayurvedic Hospital
                     </h3>
                   </div>
                   <Clock className="w-6 h-6 text-[#C59138]" />
                 </div>
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-xs text-white/90">
-                  <div className="p-3.5 bg-white/10 rounded-2xl border border-white/10">
-                    <span className="font-bold text-[#E8BC6E] block mb-1">Morning OPD Session:</span>
-                    <span>Monday to Sunday: 9:30 AM – 2:00 PM</span>
+                  <div className="p-3.5 bg-white/10 rounded-2xl border border-white/10 space-y-1">
+                    <span className="font-bold text-[#E8BC6E] block">Doctor Consultation Hours:</span>
+                    <div>Mon – Sat: 12:00 PM – 5:00 PM & 6:00 PM – 8:00 PM</div>
+                    <div>Sunday: 11:00 AM – 2:00 PM (Evening Closed)</div>
                   </div>
-                  <div className="p-3.5 bg-white/10 rounded-2xl border border-white/10">
-                    <span className="font-bold text-[#E8BC6E] block mb-1">Evening OPD Session:</span>
-                    <span>Monday to Saturday: 5:30 PM – 8:00 PM</span>
-                    <span className="block text-[11px] text-white/60 mt-0.5">(Sunday evening closed)</span>
+                  <div className="p-3.5 bg-white/10 rounded-2xl border border-white/10 space-y-1">
+                    <span className="font-bold text-[#E8BC6E] block">Hospital Timings:</span>
+                    <div>Monday to Saturday: 9:00 AM – 8:00 PM</div>
+                    <div>Sunday: 9:00 AM – 2:00 PM (Evening Closed)</div>
                   </div>
                 </div>
 
@@ -293,14 +295,15 @@ export default function DrBsKatiyarPage() {
 
                 <div className="flex flex-col sm:flex-row gap-3 pt-2">
                   <a
-                    href="tel:+919415040160"
+                    href="tel:+918009708080"
                     className="flex-1 py-3 rounded-full bg-[#C59138] hover:bg-[#d6a249] text-[#092119] font-bold text-xs flex items-center justify-center gap-2 transition-all shadow-md"
+                    title="Call: +91-8009708080 / +91-8090345555"
                   >
                     <Phone className="w-4 h-4" />
-                    <span>Call Dr. Katiyar: +91-9415040160</span>
+                    <span>Call Dr. Katiyar: +91-8009708080</span>
                   </a>
                   <a
-                    href="https://wa.me/918009708080?text=Hello%20Dr.%20Katiyar%2C%20I%20would%20like%20to%20consult%20regarding%20treatment"
+                    href="https://wa.me/918009708080?text=Hello%20Dr.%20Katiyar%2C%20I%20would%20like%20to%20consult%20regarding%20treatment%20at%20Punarnava%20Ayurvedic%20Hospital"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="py-3 px-6 rounded-full bg-[#25D366] hover:bg-[#20ba59] text-white font-bold text-xs flex items-center justify-center gap-2 transition-all shadow-md"

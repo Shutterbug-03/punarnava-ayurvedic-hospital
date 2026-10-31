@@ -34,7 +34,7 @@ export default function Footer() {
               </div>
               <div>
                 <h3 className="font-serif text-xl font-bold text-white tracking-tight leading-tight">
-                  {isHindi ? "पुनर्नवा आयुर्वेदिक हॉस्पिटल" : "PUNARNAVA HOSPITAL"}
+                  {isHindi ? "पुनर्नवा आयुर्वेदिक हॉस्पिटल" : "PUNARNAVA AYURVEDIC HOSPITAL"}
                 </h3>
                 <p className="text-[11px] text-[#C59138] font-semibold tracking-wider uppercase">
                   {isHindi ? "पंचकर्म एवं क्षारसूत्र केंद्र · कानपुर" : "Panchakarma & Ksharsutra Centre"}
@@ -74,6 +74,11 @@ export default function Footer() {
                 </a>
               </li>
               <li>
+                <a href="#ksharsutra" className="hover:text-[#C59138] transition-colors">
+                  {isHindi ? "गैस्ट्रो एवं यकृत रोग (फैटी लिवर, गैस, आईबीएस)" : "Gastrointestinal & Hepatobiliary Care"}
+                </a>
+              </li>
+              <li>
                 <a href="#panchakarma" className="hover:text-[#C59138] transition-colors">
                   {isHindi ? "सम्पूर्ण पंचकर्म विषमुक्ति (5-Stage Detox)" : "5-Stage Classical Panchakarma"}
                 </a>
@@ -98,7 +103,7 @@ export default function Footer() {
               </li>
               <li>
                 <a href="/dr-bs-katiyar" className="hover:text-[#C59138] transition-colors flex items-center gap-1.5">
-                  <span>Dr. B.S. Katiyar (MD, PGCKS)</span>
+                  <span>Dr. B.S. Katiyar (M.D. (Ayurvedic Medicine) Lko, P.G. Diploma in Ksharsutra)</span>
                 </a>
               </li>
               <li>
@@ -141,33 +146,49 @@ export default function Footer() {
 
               <div className="flex items-center gap-2.5">
                 <Phone className="w-4 h-4 text-[#C59138] shrink-0" />
-                <div className="flex flex-wrap gap-2">
+                <div className="flex flex-wrap items-center gap-2">
                   <a href="tel:+918009708080" className="hover:text-[#C59138] font-bold text-white">
                     +91-8009708080
                   </a>
                   <span>/</span>
-                  <a href="tel:+919415040160" className="hover:text-[#C59138]">
-                    +91-9415040160
+                  <a href="tel:+918090345555" className="hover:text-[#C59138] font-bold text-white">
+                    +91-8090345555
                   </a>
                 </div>
               </div>
 
               <div className="flex items-center gap-2.5">
                 <Mail className="w-4 h-4 text-[#C59138] shrink-0" />
-                <a href="mailto:info@pahindia.com" className="hover:text-[#C59138]">
-                  {t.footer.email}
+                <a href="mailto:punarnavaayurvedichospital68@gmail.com" className="hover:text-[#C59138]">
+                  punarnavaayurvedichospital68@gmail.com
                 </a>
               </div>
 
               <div className="flex items-start gap-2.5 pt-1">
                 <Clock className="w-4 h-4 text-[#C59138] shrink-0 mt-0.5" />
-                <div>
-                  <p>
-                    <strong className="text-white">{isHindi ? "प्रातः ओपीडी:" : "Morning OPD:"}</strong> 9:30 AM – 2:00 PM ({isHindi ? "सोमवार से रविवार" : "Monday to Sunday"})
-                  </p>
-                  <p className="mt-0.5">
-                    <strong className="text-white">{isHindi ? "सायं ओपीडी:" : "Evening OPD:"}</strong> 5:30 PM – 8:00 PM ({isHindi ? "सोमवार से शनिवार" : "Monday to Saturday, Sun Evening Closed"})
-                  </p>
+                <div className="space-y-2">
+                  <div>
+                    <span className="font-semibold text-white block">
+                      {isHindi ? "अस्पताल समय:" : "Hospital Timings:"}
+                    </span>
+                    <p className="text-[11px] text-[#FAF7F2]/80">
+                      {isHindi ? "सोमवार - शनिवार: प्रातः 9:00 से रात्रि 8:00" : "Monday to Saturday: 9:00 AM – 8:00 PM"}
+                    </p>
+                    <p className="text-[11px] text-[#FAF7F2]/80">
+                      {isHindi ? "रविवार: प्रातः 9:00 से दोपहर 2:00 (सायं बंद)" : "Sunday: 9:00 AM – 2:00 PM (Evening Closed)"}
+                    </p>
+                  </div>
+                  <div className="pt-1.5 border-t border-white/10">
+                    <span className="font-semibold text-[#E8BC6E] block">
+                      {isHindi ? "डॉक्टर परामर्श समय:" : "Doctor Consultation Timings:"}
+                    </span>
+                    <p className="text-[11px] text-[#FAF7F2]/80">
+                      {isHindi ? "सोमवार - शनिवार: दोपहर 12:00 – 5:00 एवं सायं 6:00 – 8:00" : "Monday to Saturday: 12:00 PM – 5:00 PM & 6:00 PM – 8:00 PM"}
+                    </p>
+                    <p className="text-[11px] text-[#FAF7F2]/80">
+                      {isHindi ? "रविवार: प्रातः 11:00 से दोपहर 2:00 (सायं बंद)" : "Sunday: 11:00 AM – 2:00 PM (Evening Closed)"}
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -258,7 +279,7 @@ export default function Footer() {
 
       {/* Floating WhatsApp Help Button */}
       <a
-        href="https://wa.me/918009708080?text=Hello%20Punarnava%20Hospital%2C%20I%20would%20like%20to%20consult%20regarding%20treatment"
+        href="https://wa.me/918009708080?text=Hello%20Punarnava%20Ayurvedic%20Hospital%2C%20I%20would%20like%20to%20consult%20regarding%20treatment"
         target="_blank"
         rel="noopener noreferrer"
         aria-label="Chat on WhatsApp"

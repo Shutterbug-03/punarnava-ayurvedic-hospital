@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { useLanguage } from '../context/LanguageContext';
-import { X, Calendar, Phone, Clock, User, CheckCircle2, MessageSquare } from 'lucide-react';
+import { X, Calendar, Phone, Clock, User, CheckCircle2, MessageSquare, Send, Info } from 'lucide-react';
 
 interface ConsultationModalProps {
   isOpen: boolean;
@@ -19,7 +19,7 @@ export default function ConsultationModal({
   const [name, setName] = useState('');
   const [phone, setPhone] = useState('');
   const [department, setDepartment] = useState(defaultDepartment || t.bookingModal.deptOptions[0]);
-  const [shift, setShift] = useState('morning');
+  const [shift, setShift] = useState('afternoon');
   const [date, setDate] = useState('');
   const [notes, setNotes] = useState('');
   const [isSubmitted, setIsSubmitted] = useState(false);
@@ -41,11 +41,18 @@ export default function ConsultationModal({
     if (!name.trim() || !phone.trim()) return;
 
     // Direct WhatsApp booking message
-    const msg = `*Free Consultation Request - Punarnava Ayurvedic Hospital*%0A` +
+    const shiftLabel =
+      shift === 'afternoon'
+        ? 'Afternoon (12:00 PM - 5:00 PM)'
+        : shift === 'evening'
+        ? 'Evening (6:00 PM - 8:00 PM)'
+        : 'Sunday Morning (11:00 AM - 2:00 PM)';
+
+    const msg = `*OPD Consultation Booking Request - Punarnava Ayurvedic Hospital*%0A` +
       `*Patient Name:* ${encodeURIComponent(name)}%0A` +
       `*Phone:* ${encodeURIComponent(phone)}%0A` +
       `*Ailment/Department:* ${encodeURIComponent(department)}%0A` +
-      `*Preferred Shift:* ${encodeURIComponent(shift === 'morning' ? 'Morning (9:30 AM - 2:00 PM)' : 'Evening (5:30 PM - 8:00 PM)')}%0A` +
+      `*Preferred Shift:* ${encodeURIComponent(shiftLabel)}%0A` +
       `*Date:* ${encodeURIComponent(date || 'Earliest Available')}%0A` +
       `*Notes:* ${encodeURIComponent(notes || 'None')}`;
 
@@ -57,7 +64,7 @@ export default function ConsultationModal({
 
   const handleWhatsAppInstant = () => {
     const text = encodeURIComponent(
-      `Hello Punarnava Ayurvedic Hospital, I would like to book a Free OPD Consultation for ${name || 'myself'}. Phone: ${phone || 'Please call me'}. Department: ${department}.`
+      `Hello Punarnava Ayurvedic Hospital, I would like to book an OPD Consultation Token for ${name || 'myself'}. Phone: ${phone || 'Please call me'}. Department: ${department}.`
     );
     window.open(`https://wa.me/918009708080?text=${text}`, '_blank');
   };
@@ -112,7 +119,7 @@ export default function ConsultationModal({
                   className="inline-flex items-center justify-center gap-2 px-5 py-2.5 bg-[#0D3325] text-white rounded-xl text-sm font-medium hover:bg-[#134533] transition-colors"
                 >
                   <Phone className="w-4 h-4" />
-                  Call OPD: +91-8009708080
+                  Call: +91-8009708080 / 8090345555
                 </a>
                 <button
                   onClick={onClose}
@@ -202,8 +209,15 @@ export default function ConsultationModal({
                       onChange={(e) => setShift(e.target.value)}
                       className="w-full pl-9 pr-3 py-2 bg-white border border-[#E8E1D3] rounded-xl text-sm text-[#14241E] focus:outline-none focus:border-[#C59138]"
                     >
-                      <option value="morning">Morning (9:30 AM - 2:00 PM)</option>
-                      <option value="evening">Evening (5:30 PM - 8:00 PM)</option>
+                      <option value="afternoon">
+                        {isHindi ? "दोपहर (12:00 PM - 5:00 PM)" : "Afternoon (12:00 PM - 5:00 PM)"}
+                      </option>
+                      <option value="evening">
+                        {isHindi ? "सायं (6:00 PM - 8:00 PM)" : "Evening (6:00 PM - 8:00 PM)"}
+                      </option>
+                      <option value="sunday">
+                        {isHindi ? "रविवार (11:00 AM - 2:00 PM)" : "Sunday (11:00 AM - 2:00 PM)"}
+                      </option>
                     </select>
                   </div>
                 </div>
@@ -229,23 +243,33 @@ export default function ConsultationModal({
               <div className="pt-2 flex flex-col gap-2">
                 <button
                   type="submit"
-                  className="w-full py-3 px-4 bg-[#0D3325] text-white font-medium rounded-xl text-sm hover:bg-[#134533] transition-colors shadow-md flex items-center justify-center gap-2"
+                  className="w-full py-3 px-4 bg-[#0D3325] text-white font-medium rounded-xl text-sm hover:bg-[#134533] transition-colors shadow-md flex items-center justify-center gap-2 cursor-pointer"
                 >
-                  <CheckCircle2 className="w-4 h-4 text-[#C59138]" />
+                  <Send className="w-4 h-4 text-[#C59138]" />
                   {t.bookingModal.submitBtn}
                 </button>
 
                 <button
                   type="button"
                   onClick={handleWhatsAppInstant}
-                  className="w-full py-2.5 px-4 bg-[#25D366]/15 hover:bg-[#25D366]/25 text-[#1B8040] font-medium rounded-xl text-xs flex items-center justify-center gap-2 transition-colors border border-[#25D366]/30"
+                  className="w-full py-2.5 px-4 bg-[#25D366]/15 hover:bg-[#25D366]/25 text-[#1B8040] font-medium rounded-xl text-xs flex items-center justify-center gap-2 transition-colors border border-[#25D366]/30 cursor-pointer"
                 >
                   <MessageSquare className="w-4 h-4 text-[#25D366]" />
                   {t.bookingModal.whatsappBtn}
                 </button>
               </div>
 
-              <p className="text-[11px] text-[#799186] text-center mt-2">
+              {/* OPD Charges & Booking Clarification */}
+              <div className="bg-[#FAF7F2] border border-[#E8E1D3] rounded-xl p-2.5 text-center text-xs text-[#4B6358] flex items-center justify-center gap-1.5">
+                <Info className="w-3.5 h-3.5 text-[#C59138] shrink-0" />
+                <span>
+                  {isHindi
+                    ? "ऑनलाइन टोकन बुकिंग पूर्णतः निःशुल्क है। डॉक्टर परामर्श शुल्क अस्पताल काउंटर पर देय है।"
+                    : "Online token booking is free. Doctor consultation charges apply at hospital counter."}
+                </span>
+              </div>
+
+              <p className="text-[11px] text-[#799186] text-center mt-1">
                 🔒 {isHindi ? "आपकी जानकारी 100% गोपनीय रखी जाती है।" : "Your personal & clinical data is 100% confidential."}
               </p>
             </form>

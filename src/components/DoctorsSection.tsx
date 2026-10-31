@@ -131,7 +131,7 @@ export default function DoctorsSection({ onOpenConsultation }: DoctorsSectionPro
                       onClick={onOpenConsultation}
                       className="flex-1 py-2.5 rounded-full bg-[#0D3325] hover:bg-[#134533] text-white text-xs font-bold transition-all flex items-center justify-center gap-2 shadow-xs cursor-pointer"
                     >
-                      <span>{isHindi ? 'निःशुल्क परामर्श बुक करें' : 'Book Free OPD Token'}</span>
+                      <span>{isHindi ? 'ओपीडी टोकन बुक करें' : 'Book OPD Token'}</span>
                       <ArrowRight className="w-3.5 h-3.5 text-[#C59138]" />
                     </button>
                     <a

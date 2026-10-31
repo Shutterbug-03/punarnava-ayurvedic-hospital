@@ -25,6 +25,7 @@ export interface TreatmentItem {
   indications: string[];
   image: string;
   badge?: string;
+  actionSteps?: string[];
 }
 
 export interface ComparisonRow {

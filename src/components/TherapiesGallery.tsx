@@ -16,21 +16,27 @@ export default function TherapiesGallery({ onOpenConsultation }: TherapiesGaller
 
   const categories = useMemo(() => [
     { id: 'All', labelEn: 'All Therapies', labelHi: 'सम्पूर्ण चिकित्सा' },
-    { id: 'Stress & Neuro', labelEn: 'Stress & Neuro Care', labelHi: 'तनाव एवं न्यूरो' },
-    { id: 'Spine & Joints', labelEn: 'Spine & Joint Health', labelHi: 'रीढ़ एवं जोड़' },
+    { id: 'Spine & Joints', labelEn: 'Spine, Joints & Bastis', labelHi: 'रीढ़, जोड़ व बस्तियां' },
+    { id: 'Stress & Neuro', labelEn: 'Stress & Organ Care', labelHi: 'तनाव एवं अंग शोधन' },
     { id: 'Women Wellness', labelEn: "Women's Wellness", labelHi: 'मातृत्व एवं स्त्री रोग' },
   ], []);
 
   // Map each therapy to a filter category
   const categorizedTherapies = useMemo(() => {
-    return t.therapiesList.map((item, idx) => {
-      let cat = 'Stress & Neuro';
-      if (item.title.toLowerCase().includes('basti') || item.title.toLowerCase().includes('swedana') || item.title.toLowerCase().includes('potli')) {
-        cat = 'Spine & Joints';
-      } else if (item.title.toLowerCase().includes('uttara') || item.title.toLowerCase().includes('gynaec') || item.badge.toLowerCase().includes('fertility')) {
-        cat = 'Women Wellness';
-      } else if (idx === 0 || idx === 1) {
+    return t.therapiesList.map((item) => {
+      let cat = 'Spine & Joints';
+      const id = item.id.toLowerCase();
+      if (
+        id.includes('shirodhara') ||
+        id.includes('nadi') ||
+        id.includes('netra') ||
+        id.includes('hriday')
+      ) {
         cat = 'Stress & Neuro';
+      } else if (id.includes('women') || id.includes('uttara')) {
+        cat = 'Women Wellness';
+      } else {
+        cat = 'Spine & Joints';
       }
       return { ...item, category: cat };
     });
@@ -137,31 +143,19 @@ export default function TherapiesGallery({ onOpenConsultation }: TherapiesGaller
                   </div>
                 </div>
 
-                {/* 3-Step Action Micro-Flowchart */}
+                {/* 2-Step Action Micro-Flowchart */}
                 <div className="px-6 py-4 bg-gradient-to-b from-[#092119] to-[#0D3325] text-white">
                   <div className="bg-white/10 backdrop-blur-md rounded-xl p-3 border border-white/15 space-y-1.5 text-[11px]">
                     <div className="flex items-center gap-2 text-[#FAF7F2]">
                       <div className="w-1.5 h-1.5 rounded-full bg-[#C59138]"></div>
                       <span>
-                        {idx === 0
-                          ? (isHindi ? '1. आज्ञा चक्र पर औषधीय धारा' : '1. Rhythmic frontal oil stream')
-                          : idx === 1
-                          ? (isHindi ? '1. कार्टिलेज में औषधीय स्नेहन' : '1. Deep knee joint retention')
-                          : idx === 2
-                          ? (isHindi ? '1. कटि-रीढ़ की हड्डी पर तैल कुंड' : '1. Lumbar spine pool retention')
-                          : (isHindi ? '1. गर्भाशय नलिका शोधन' : '1. Medicated intra-uterine infusion')}
+                        {item.actionSteps?.[0] || (isHindi ? '1. औषधीय तैल अथवा क्वाथ धारण' : '1. Medicated herbal retention')}
                       </span>
                     </div>
                     <div className="flex items-center gap-2 text-[#FAF7F2]">
                       <div className="w-1.5 h-1.5 rounded-full bg-[#E8BC6E]"></div>
                       <span>
-                        {idx === 0
-                          ? (isHindi ? '2. अल्फा-तरंगों का उद्दीपन' : '2. Neuro-endocrine reset')
-                          : idx === 1
-                          ? (isHindi ? '2. सायनोवियल फ्लूइड की वृद्धि' : '2. Synovial fluid replenishment')
-                          : idx === 2
-                          ? (isHindi ? '2. साइटिका नर्व डिकम्प्रेशन' : '2. Sciatic nerve decompression')
-                          : (isHindi ? '2. हार्मोनल असंतुलन निवारण' : '2. Fallopian & ovarian reset')}
+                        {item.actionSteps?.[1] || (isHindi ? '2. गहन धातु पोषण व दोष निष्कासन' : '2. Deep cellular nourishment & healing')}
                       </span>
                     </div>
                   </div>

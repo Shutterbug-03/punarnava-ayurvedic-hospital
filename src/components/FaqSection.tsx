@@ -110,7 +110,7 @@ export default function FaqSection({ onOpenConsultation }: FaqSectionProps) {
 
           <div className="flex flex-wrap items-center justify-center gap-3 shrink-0">
             <a
-              href="https://wa.me/918009708080?text=Hello%20Doctor%2C%20I%20have%20a%20question%20regarding%20treatment%20at%20Punarnava"
+              href="https://wa.me/918009708080?text=Hello%20Doctor%2C%20I%20have%20a%20question%20regarding%20treatment%20at%20Punarnava%20Ayurvedic%20Hospital"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-5 py-2.5 bg-[#25D366] hover:bg-[#20BA5C] text-white rounded-full text-xs font-bold transition-all shadow-xs"
@@ -122,7 +122,7 @@ export default function FaqSection({ onOpenConsultation }: FaqSectionProps) {
               onClick={onOpenConsultation}
               className="px-5 py-2.5 bg-[#0D3325] hover:bg-[#134533] text-white rounded-full text-xs font-bold transition-all shadow-xs cursor-pointer flex items-center gap-2"
             >
-              <span>{isHindi ? 'निःशुल्क परामर्श' : 'Book Free Visit'}</span>
+              <span>{isHindi ? 'ओपीडी टोकन बुक करें' : 'Book OPD Token'}</span>
               <ArrowRight className="w-3.5 h-3.5 text-[#C59138]" />
             </button>
           </div>

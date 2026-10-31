@@ -181,7 +181,7 @@ export default function Header({ onOpenConsultation }: HeaderProps) {
     {
       title: isHindi ? 'हमारे वरिष्ठ चिकित्सक' : 'Senior Specialists',
       desc: isHindi
-        ? 'डॉ. बी.एस. कटियार (MD, PGCKS) एवं डॉ. स्मिता कटियार'
+        ? 'डॉ. बी.एस. कटियार (M.D. Lko, P.G. Diploma in Ksharsutra) एवं डॉ. स्मिता कटियार'
         : 'Led by Dr. B.S. Katiyar & Dr. Smita Katiyar with 20+ years OPD',
       href: '#doctors',
       icon: Stethoscope,
@@ -253,17 +253,14 @@ export default function Header({ onOpenConsultation }: HeaderProps) {
 
               <div className="flex flex-col">
                 <div className="flex items-center gap-1.5 leading-none">
-                  <span className="font-serif font-bold text-base sm:text-lg text-[#0D3325] tracking-tight group-hover:text-[#134533] transition-colors">
-                    {isHindi ? 'पुनर्नवा' : 'PUNARNAVA'}
-                  </span>
-                  <span className="text-[10px] sm:text-xs font-semibold uppercase tracking-wider text-[#C59138] px-1.5 py-0.5 rounded-full bg-[#C59138]/10 border border-[#C59138]/20">
-                    {isHindi ? 'चिकित्सालय' : 'HOSPITAL'}
+                  <span className="font-serif font-bold text-sm sm:text-base md:text-lg text-[#0D3325] tracking-tight group-hover:text-[#134533] transition-colors whitespace-nowrap">
+                    {isHindi ? 'पुनर्नवा आयुर्वेदिक हॉस्पिटल' : 'PUNARNAVA AYURVEDIC HOSPITAL'}
                   </span>
                 </div>
                 <span className="text-[9px] sm:text-[10px] text-[#4B6358] font-medium tracking-wide">
                   {isHindi
                     ? 'पंचकर्म एवं क्षारसूत्र केंद्र · कानपुर'
-                    : 'Panchakarma & Ksharsutra Centre'}
+                    : 'Panchakarma & Ksharsutra Centre · Kanpur'}
                 </span>
               </div>
             </a>
@@ -440,10 +437,10 @@ export default function Header({ onOpenConsultation }: HeaderProps) {
               <a
                 href="tel:+918009708080"
                 className="hidden xl:inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-semibold text-[#0D3325] bg-[#FAF7F2] hover:bg-[#E8E1D3]/70 border border-[#E8E1D3] rounded-full transition-all shadow-2xs hover:shadow-xs group"
-                title="Call OPD Helpline"
+                title="Call OPD Helpline: +91-8009708080 / +91-8090345555"
               >
                 <Phone className="w-3.5 h-3.5 text-[#C59138] group-hover:rotate-12 transition-transform" />
-                <span>+91-8009708080</span>
+                <span>8009708080 / 8090345555</span>
               </a>
 
               {/* Language Switcher Pill */}
@@ -482,7 +479,7 @@ export default function Header({ onOpenConsultation }: HeaderProps) {
               >
                 <CalendarCheck className="w-3.5 h-3.5 text-[#C59138] group-hover:scale-110 transition-transform" />
                 <span className="hidden sm:inline">
-                  {isHindi ? 'निःशुल्क परामर्श बुक करें' : 'Book Consultation'}
+                  {isHindi ? 'ओपीडी टोकन बुक करें' : 'Book OPD Token'}
                 </span>
                 <span className="sm:hidden">{isHindi ? 'परामर्श' : 'Book'}</span>
               </button>
@@ -532,7 +529,7 @@ export default function Header({ onOpenConsultation }: HeaderProps) {
                 </div>
                 <div>
                   <h3 className="font-serif font-bold text-base text-[#0D3325] leading-tight">
-                    {isHindi ? 'पुनर्नवा आयुर्वेदिक हॉस्पिटल' : 'PUNARNAVA HOSPITAL'}
+                    {isHindi ? 'पुनर्नवा आयुर्वेदिक हॉस्पिटल' : 'PUNARNAVA AYURVEDIC HOSPITAL'}
                   </h3>
                   <p className="text-[10px] text-[#C59138] font-semibold uppercase tracking-wider">
                     {isHindi ? 'पंचकर्म एवं क्षारसूत्र केंद्र' : 'Panchakarma & Ksharsutra'}
@@ -580,17 +577,26 @@ export default function Header({ onOpenConsultation }: HeaderProps) {
             </div>
 
             {/* Quick Contact & Emergency Action Row */}
-            <div className="px-4 py-3 bg-[#FAF7F2] border-b border-[#E8E1D3] grid grid-cols-2 gap-2 shrink-0">
-              <a
-                href="tel:+918009708080"
-                className="flex items-center justify-center gap-2 py-2 px-3 bg-white border border-[#E8E1D3] hover:border-[#0D3325] rounded-xl text-xs font-bold text-[#0D3325] shadow-2xs transition-colors"
-              >
-                <Phone className="w-3.5 h-3.5 text-[#C59138]" />
-                <span>Call Helpline</span>
-              </a>
+            <div className="px-4 py-3 bg-[#FAF7F2] border-b border-[#E8E1D3] flex flex-col gap-2 shrink-0">
+              <div className="grid grid-cols-2 gap-2">
+                <a
+                  href="tel:+918009708080"
+                  className="flex items-center justify-center gap-1.5 py-2 px-2.5 bg-white border border-[#E8E1D3] hover:border-[#0D3325] rounded-xl text-xs font-bold text-[#0D3325] shadow-2xs transition-colors"
+                >
+                  <Phone className="w-3.5 h-3.5 text-[#C59138]" />
+                  <span>8009708080</span>
+                </a>
+                <a
+                  href="tel:+918090345555"
+                  className="flex items-center justify-center gap-1.5 py-2 px-2.5 bg-white border border-[#E8E1D3] hover:border-[#0D3325] rounded-xl text-xs font-bold text-[#0D3325] shadow-2xs transition-colors"
+                >
+                  <Phone className="w-3.5 h-3.5 text-[#C59138]" />
+                  <span>8090345555</span>
+                </a>
+              </div>
 
               <a
-                href="https://wa.me/918009708080?text=Hello%20Punarnava%20Hospital%2C%20I%20want%20to%20consult%20regarding%20treatment"
+                href="https://wa.me/918009708080?text=Hello%20Punarnava%20Ayurvedic%20Hospital%2C%20I%20want%20to%20consult%20regarding%20treatment"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center gap-2 py-2 px-3 bg-[#25D366]/10 border border-[#25D366]/30 hover:bg-[#25D366]/20 rounded-xl text-xs font-bold text-[#1B8040] shadow-2xs transition-colors"
@@ -762,7 +768,7 @@ export default function Header({ onOpenConsultation }: HeaderProps) {
                 </div>
                 <div className="flex items-center gap-2 text-[#4B6358]">
                   <Clock className="w-3.5 h-3.5 text-[#C59138] shrink-0" />
-                  <span>OPD: 9:30 AM – 2:00 PM & 5:30 PM – 8:00 PM</span>
+                  <span>Hospital: 9 AM–8 PM | Dr Consultation: 12–5 PM & 6–8 PM</span>
                 </div>
               </a>
             </div>
@@ -778,7 +784,7 @@ export default function Header({ onOpenConsultation }: HeaderProps) {
                 className="w-full py-3 px-4 bg-gradient-to-r from-[#0D3325] via-[#134533] to-[#0D3325] text-white rounded-full font-bold text-sm tracking-wide shadow-md hover:shadow-lg flex items-center justify-center gap-2 active:scale-98 transition-all cursor-pointer"
               >
                 <CalendarCheck className="w-4 h-4 text-[#C59138]" />
-                <span>{isHindi ? 'निःशुल्क परामर्श टोकन बुक करें' : 'Book Free Consultation Token'}</span>
+                <span>{isHindi ? 'ओपीडी टोकन बुक करें' : 'Book OPD Token'}</span>
               </button>
             </div>
           </div>
@@ -790,14 +796,14 @@ export default function Header({ onOpenConsultation }: HeaderProps) {
         <a
           href="tel:+918009708080"
           className="flex-1 py-2.5 px-2 bg-[#FAF7F2] border border-[#E8E1D3] active:bg-[#E8E1D3] text-[#0D3325] rounded-xl text-xs font-bold flex items-center justify-center gap-1.5 transition-colors"
-          title="Call OPD Helpline"
+          title="Call OPD Helpline: +91-8009708080 / +91-8090345555"
         >
           <Phone className="w-3.5 h-3.5 text-[#C59138]" />
           <span>{isHindi ? 'कॉल करें' : 'Call OPD'}</span>
         </a>
 
         <a
-          href="https://wa.me/918009708080?text=Hello%20Punarnava%20Hospital%2C%20I%20would%20like%20to%20consult%20regarding%20treatment"
+          href="https://wa.me/918009708080?text=Hello%20Punarnava%20Ayurvedic%20Hospital%2C%20I%20would%20like%20to%20consult%20regarding%20treatment"
           target="_blank"
           rel="noopener noreferrer"
           className="py-2.5 px-3 bg-[#25D366]/15 border border-[#25D366]/30 active:bg-[#25D366]/30 text-[#1B8040] rounded-xl text-xs font-bold flex items-center justify-center gap-1.5 transition-colors"

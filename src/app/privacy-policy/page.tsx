@@ -55,7 +55,7 @@ export default function PrivacyPolicyPage() {
 
           <h2 className="text-lg font-serif font-bold text-[#0D3325]">4. Confidentiality & Zero Third-Party Sharing</h2>
           <p>
-            We strictly protect doctor-patient privilege. We never sell, rent, or trade your medical or contact details to third-party marketing companies. Data is only accessible to authorized medical personnel at Punarnava Hospital.
+            We strictly protect doctor-patient privilege. We never sell, rent, or trade your medical or contact details to third-party marketing companies. Data is only accessible to authorized medical personnel at Punarnava Ayurvedic Hospital.
           </p>
 
           <h2 className="text-lg font-serif font-bold text-[#0D3325]">5. Contact Our Privacy Officer</h2>
@@ -66,7 +66,7 @@ export default function PrivacyPolicyPage() {
             <br />
             68, Lakhanpur, Vikas Nagar, G.T. Road, Kanpur, UP - 208024
             <br />
-            Email: info@pahindia.com | Phone: +91-8009708080
+            Email: punarnavaayurvedichospital68@gmail.com | Phone: +91-8009708080 / +91-8090345555
           </p>
         </div>
       </div>

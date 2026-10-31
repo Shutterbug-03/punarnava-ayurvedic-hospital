@@ -203,15 +203,15 @@ export default function TestimonialsSection({ onOpenConsultation }: Testimonials
               </div>
               <div className="text-[10px] sm:text-[11px] text-[#4B6358] font-medium">
                 {isHindi
-                  ? 'मुख्य चिकित्सक एवं क्षारसूत्र सर्जन (MD, PGCKS)'
-                  : 'Chief Physician & Ksharsutra Surgeon (MD, PGCKS)'}
+                  ? 'मुख्य चिकित्सक एवं क्षारसूत्र सर्जन (M.D. Lko, P.G. Diploma in Ksharsutra)'
+                  : 'Chief Physician & Ksharsutra Surgeon (M.D. Lko, P.G. Diploma in Ksharsutra)'}
               </div>
             </div>
             <a
               href="tel:+918009708080"
               aria-label="Call Hospital OPD"
               className="w-7 sm:w-8 h-7 sm:h-8 bg-[#FAF7F2] rounded-full flex items-center justify-center text-[#0D3325] hover:bg-[#0D3325] hover:text-white transition-colors cursor-pointer ml-1 sm:ml-2 border border-[#E8E1D3]"
-              title="Call OPD Helpline"
+              title="Call OPD Helpline: +91-8009708080 / +91-8090345555"
             >
               <Phone size={12} />
             </a>
@@ -377,7 +377,7 @@ export default function TestimonialsSection({ onOpenConsultation }: Testimonials
             onClick={onOpenConsultation}
             className="px-6 py-3 rounded-full bg-[#0D3325] hover:bg-[#134533] text-white text-xs font-bold transition-all shadow-md hover:shadow-lg flex items-center gap-2 shrink-0 cursor-pointer"
           >
-            <span>{isHindi ? 'निःशुल्क परामर्श बुक करें' : 'Book Free Consultation'}</span>
+            <span>{isHindi ? 'ओपीडी टोकन बुक करें' : 'Book OPD Token'}</span>
             <ArrowRight className="w-3.5 h-3.5 text-[#C59138]" />
           </button>
         </div>

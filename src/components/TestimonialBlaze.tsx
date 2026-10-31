@@ -119,13 +119,14 @@ export default function TestimonialBlaze({
               </div>
               <div className="text-[11px] sm:text-[12px] text-[#888888] font-normal">
                 {isHindi
-                  ? 'मुख्य चिकित्सक एवं क्षारसूत्र सर्जन (MD, PGCKS)'
-                  : 'Chief Physician & Ksharsutra Surgeon (MD, PGCKS)'}
+                  ? 'मुख्य चिकित्सक एवं क्षारसूत्र सर्जन (M.D. Lko, P.G. Diploma in Ksharsutra)'
+                  : 'Chief Physician & Ksharsutra Surgeon (M.D. Lko, P.G. Diploma in Ksharsutra)'}
               </div>
             </div>
             <a
               href="tel:+918009708080"
               aria-label="Call Hospital OPD"
+              title="Call: +91-8009708080 / +91-8090345555"
               className="w-[28px] sm:w-[32px] h-[28px] sm:h-[32px] bg-[#f0f1f1] rounded-full flex items-center justify-center text-[#545555] hover:bg-[#e1e0e0] transition-colors cursor-pointer ml-1 sm:ml-2"
             >
               <Phone size={12} className="fill-[#545555]" />

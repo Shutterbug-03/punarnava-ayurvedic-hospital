@@ -43,7 +43,7 @@ export default function Home() {
       {/* Trust & Verified Metrics Bar */}
       <TrustBar />
 
-      {/* About Punarnava Hospital & Clinical Experience Section */}
+      {/* About Punarnava Ayurvedic Hospital & Clinical Experience Section */}
       <AboutUsBlaze onOpenConsultation={(dept) => handleOpenConsultation(dept)} />
 
       {/* Ksharsutra Surgery for Piles, Fissure & Fistula */}
@@ -70,7 +70,7 @@ export default function Home() {
       {/* Footer & Emergency Help */}
       <Footer />
 
-      {/* Free Consultation Booking Modal */}
+      {/* OPD Consultation Booking Modal */}
       <ConsultationModal
         isOpen={isModalOpen}
         onClose={handleCloseConsultation}

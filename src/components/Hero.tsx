@@ -88,6 +88,7 @@ export default function Hero({ onOpenConsultation }: HeroProps) {
               <a
                 href="tel:+918009708080"
                 className="inline-flex items-center justify-center gap-2 px-4 py-3 text-xs text-[#0D3325] font-bold hover:text-[#C59138] transition-colors"
+                title="Call OPD: +91-8009708080 / +91-8090345555"
               >
                 <Phone className="w-3.5 h-3.5 text-[#C59138]" />
                 <span>+91-8009708080</span>
@@ -154,7 +155,7 @@ export default function Hero({ onOpenConsultation }: HeroProps) {
                 <div className="w-9 h-9 sm:w-11 sm:h-11 rounded-full overflow-hidden bg-[#0D3325] shrink-0 border border-[#C59138]">
                   <Image
                     src="/img/doctors/dr-bs-katiyar-avatar.jpg"
-                    alt="Dr. B.S. Katiyar (MD, PGCKS)"
+                    alt="Dr. B.S. Katiyar (M.D. (Ayurvedic Medicine) Lko, P.G. Diploma in Ksharsutra)"
                     width={44}
                     height={44}
                     className="w-full h-full object-cover"
@@ -165,7 +166,7 @@ export default function Hero({ onOpenConsultation }: HeroProps) {
                     Dr. B.S. Katiyar
                   </div>
                   <div className="text-[9px] sm:text-[10px] text-[#4B6358] leading-tight font-medium">
-                    MD Ayurveda, PGCKS
+                    M.D. (Ayurvedic Med) Lko, P.G. Diploma in Ksharsutra
                   </div>
                 </div>
               </div>

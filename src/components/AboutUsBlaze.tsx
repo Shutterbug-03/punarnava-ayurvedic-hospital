@@ -180,7 +180,7 @@ export default function AboutUsBlaze({ className = '', onOpenConsultation }: Abo
           </div>
           <div className="px-[14px] py-[10px] rounded-full border border-[#e3e8f0] flex items-center justify-center bg-white shadow-xs">
             <span className="text-[15px] font-semibold text-[#0D3325] px-2 whitespace-nowrap">
-              {isHindi ? 'पुनर्नवा चिकित्सालय दर्शन' : 'About Punarnava Hospital'}
+              {isHindi ? 'पुनर्नवा आयुर्वेदिक हॉस्पिटल दर्शन' : 'About Punarnava Ayurvedic Hospital'}
             </span>
           </div>
         </div>

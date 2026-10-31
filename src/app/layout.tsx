@@ -25,7 +25,7 @@ const notoDevanagari = Noto_Serif_Devanagari({
 export const metadata: Metadata = {
   title: 'Punarnava Ayurvedic Hospital Kanpur | Panchakarma & Ksharsutra Treatment',
   description:
-    'Kanpur’s trusted Ayurvedic hospital & surgery centre led by Dr. B.S. Katiyar (MD, PGCKS) & Dr. Smita Katiyar. Expert Ksharsutra surgery for piles, fissure & fistula without general anaesthesia. Classical 5-stage Panchakarma detoxification. Rated 4.2★ with 91+ verified reviews.',
+    'Kanpur’s trusted Ayurvedic hospital & surgery centre led by Dr. B.S. Katiyar (M.D. (Ayurvedic Medicine) Lko, P.G. Diploma in Ksharsutra) & Dr. Smita Katiyar. Expert Ksharsutra surgery for piles, fissure & fistula without general anaesthesia. Classical 5-stage Panchakarma detoxification. Rated 4.2★ with 91+ verified reviews.',
   keywords: [
     'ayurvedic hospital kanpur',
     'panchakarma kanpur',
@@ -103,8 +103,8 @@ const jsonLdGraph = {
       image: 'https://www.pahindia.com/img/clinical/panchakarma-droni.jpg',
       description:
         'Premier Ayurvedic hospital in Kanpur, Uttar Pradesh, specializing in Panchakarma detoxification and Ksharsutra surgery for piles, fissure, and anal fistula without general anaesthesia.',
-      telephone: ['+91-8009708080', '+91-9415040160'],
-      email: 'info@pahindia.com',
+      telephone: ['+91-8009708080', '+91-8090345555'],
+      email: 'punarnavaayurvedichospital68@gmail.com',
       address: {
         '@type': 'PostalAddress',
         streetAddress: '68, Lakhanpur, Vikas Nagar, Behind Lucky Restaurant, G.T. Road',
@@ -127,15 +127,15 @@ const jsonLdGraph = {
       openingHoursSpecification: [
         {
           '@type': 'OpeningHoursSpecification',
-          dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
-          opens: '09:30',
-          closes: '14:00',
+          dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
+          opens: '09:00',
+          closes: '20:00',
         },
         {
           '@type': 'OpeningHoursSpecification',
-          dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
-          opens: '17:30',
-          closes: '20:00',
+          dayOfWeek: ['Sunday'],
+          opens: '09:00',
+          closes: '14:00',
         },
       ],
       medicalSpecialty: [
@@ -182,7 +182,7 @@ const jsonLdGraph = {
       jobTitle: 'Chief Physician & Ksharsutra Surgeon',
       medicalSpecialty: ['Ayurveda', 'Proctology', 'Panchakarma'],
       image: 'https://www.pahindia.com/img/doctors/dr-bs-katiyar-avatar.jpg',
-      telephone: '+91-9415040160',
+      telephone: '+91-8009708080',
       worksFor: {
         '@id': 'https://www.pahindia.com/#hospital',
       },
@@ -193,11 +193,11 @@ const jsonLdGraph = {
       hasCredential: [
         {
           '@type': 'EducationalOccupationalCredential',
-          name: 'MD in Ayurvedic Medicine, Lucknow University',
+          name: 'M.D. (Ayurvedic Medicine) Lko',
         },
         {
           '@type': 'EducationalOccupationalCredential',
-          name: 'PGCKS (Post Graduate Certificate in Ksharsutra Surgery)',
+          name: 'P.G. Diploma in Ksharsutra',
         },
       ],
       sameAs: 'https://www.pahindia.com/dr-bs-katiyar',
@@ -211,7 +211,7 @@ const jsonLdGraph = {
       familyName: 'Katiyar',
       jobTitle: 'Senior Consultant in Ayurvedic Gynaecology & Infertility',
       medicalSpecialty: ['Ayurveda', 'Gynecology', 'Reproductive Medicine'],
-      telephone: '+91-8009708080',
+      telephone: '+91-8090345555',
       worksFor: {
         '@id': 'https://www.pahindia.com/#hospital',
       },
@@ -284,10 +284,10 @@ const jsonLdGraph = {
         },
         {
           '@type': 'Question',
-          name: 'Is the first consultation free at Punarnava Hospital?',
+          name: 'Is OPD appointment booking free and what are the consultation charges?',
           acceptedAnswer: {
             '@type': 'Answer',
-            text: 'Yes! We offer a complimentary initial OPD consultation to understand your medical history, examine your symptoms, and explain the required treatment protocol. You can call +91-8009708080 or book online.',
+            text: 'Yes! Online OPD token booking and queue reservation is completely free. Standard doctor consultation charges apply during your in-person hospital visit. You can call +91-8009708080 or +91-8090345555 or book online.',
           },
         },
         {
@@ -295,12 +295,12 @@ const jsonLdGraph = {
           name: 'What are the hospital OPD timings and location in Kanpur?',
           acceptedAnswer: {
             '@type': 'Answer',
-            text: 'We are located at 68, Lakhanpur, Vikas Nagar, Behind Lucky Restaurant, G.T. Road, Kanpur - 208024, UP. Morning OPD runs daily from 9:30 AM to 2:00 PM (Monday to Sunday). Evening OPD runs Monday to Saturday from 5:30 PM to 8:00 PM (Sunday evening is closed).',
+            text: 'We are located at 68, Lakhanpur, Vikas Nagar, Behind Lucky Restaurant, G.T. Road, Kanpur - 208024, UP. Hospital timings are Monday to Saturday from 9:00 AM to 8:00 PM, and Sunday from 9:00 AM to 2:00 PM (evening closed). Doctor consultation timings are Monday to Saturday from 12:00 PM to 5:00 PM and 6:00 PM to 8:00 PM, and Sunday from 11:00 AM to 2:00 PM (evening closed).',
           },
         },
         {
           '@type': 'Question',
-          name: "Does Punarnava Hospital treat women's hormonal and reproductive problems?",
+          name: "Does Punarnava Ayurvedic Hospital treat women's hormonal and reproductive problems?",
           acceptedAnswer: {
             '@type': 'Answer',
             text: "Yes. Dr. Smita Katiyar (MD, BAMS) leads the women's health wing, successfully treating PCOS, tubal blockages, endometriosis, irregular menstruation, and unexplained female infertility through customized herbal regimes and Uttara Basti therapy.",
